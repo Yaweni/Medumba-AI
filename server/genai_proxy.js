@@ -570,7 +570,7 @@ app.post('/api/translate', async (req, res) => {
         fallback = 'llm';
         llmUsed = true;
       }
-      if (llmResult.error) {
+      if (llmResult.error && !/429|quota|RESOURCE_EXHAUSTED/i.test(llmResult.error)) {
         error = llmResult.error;
       }
     } catch (err) {

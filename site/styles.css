@@ -27,10 +27,38 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ─── African Motif Background ─── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image:
+    /* Concentric diamonds — Kente-inspired */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%2363b3ed' stroke-width='1.2'%3E%3Cpath d='M40 10L70 40L40 70L10 40Z'/%3E%3Cpath d='M40 20L60 40L40 60L20 40Z'/%3E%3Cpath d='M40 30L50 40L40 50L30 40Z'/%3E%3C/g%3E%3C/svg%3E"),
+    /* Zigzag band — Ndop cloth pattern */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30' viewBox='0 0 60 30'%3E%3Cpolyline fill='none' stroke='%23805ad5' stroke-width='1' points='0,25 15,5 30,25 45,5 60,25'/%3E%3C/svg%3E"),
+    /* Small cross / Adinkra-style */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M20 8v24M8 20h24' stroke='%2368d391' stroke-width='1' fill='none'/%3E%3Ccircle cx='20' cy='20' r='4' stroke='%2368d391' stroke-width='0.8' fill='none'/%3E%3C/svg%3E");
+  background-size: 80px 80px, 60px 30px, 40px 40px;
+  background-position: 0 0, 40px 0, 20px 20px;
+  animation: motifDrift 60s linear infinite;
+}
+@keyframes motifDrift {
+  0%   { background-position: 0 0, 40px 0, 20px 20px; }
+  100% { background-position: 80px 80px, 100px 30px, 60px 60px; }
 }
 
 /* ─── Layout ─── */
 .app {
+  position: relative;
+  z-index: 1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

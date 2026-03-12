@@ -128,7 +128,10 @@
         outputEl.innerHTML = '<span class="output-placeholder">No translation available</span>';
       }
 
-      if (data.error) showError(data.error);
+      // Suppress quota/rate-limit errors — transparent to user
+      if (data.error && !/429|quota|rate.?limit|RESOURCE_EXHAUSTED/i.test(data.error)) {
+        showError(data.error);
+      }
     } catch (err) {
       showError(err.message || 'Network error');
       outputEl.innerHTML = '<span class="output-placeholder">Translation failed</span>';
