@@ -1,171 +1,165 @@
 (() => {
+  /* ── Element references ── */
   const API_BASE = window.location.protocol === 'file:' ? 'http://localhost:5000' : '';
-  const qEl = document.getElementById('q');
-  const dirEl = document.getElementById('direction');
-  const btn = document.getElementById('search');
-  const out = document.getElementById('results');
-  const statusEl = document.getElementById('status');
-  const useLlmEl = document.getElementById('use-llm');
+  const $ = (sel) => document.querySelector(sel);
+  const inputEl      = $('#input');
+  const outputEl     = $('#output');
+  const statusEl     = $('#status');
+  const translateBtn = $('#translate-btn');
+  const btnText      = translateBtn.querySelector('.btn-text');
+  const btnLoader    = translateBtn.querySelector('.btn-loader');
+  const useLlmEl     = $('#use-llm');
+  const swapBtn      = $('#swap');
+  const clearBtn     = $('#clear-btn');
+  const copyBtn      = $('#copy-btn');
+  const charCount    = $('#char-count');
+  const sourceLang   = $('#source-lang');
+  const targetLang   = $('#target-lang');
+  const methodBadge  = $('#method-badge');
+  const reasoningSec = $('#reasoning-section');
+  const reasoningTxt = $('#reasoning-text');
+  const wbwSec       = $('#wbw-section');
+  const wbwTxt       = $('#wbw-text');
+  const matchesSec   = $('#matches-section');
+  const matchesList  = $('#matches-list');
+  const matchCount   = $('#match-count');
+  const errorToast   = $('#error-toast');
 
-  function setStatus(text) {
-    if (statusEl) statusEl.textContent = text;
+  let direction = 'fr-md'; // default
+
+  /* ── Helpers ── */
+  function show(el) { el.classList.remove('hidden'); }
+  function hide(el) { el.classList.add('hidden'); }
+
+  function showError(msg) {
+    errorToast.textContent = msg;
+    show(errorToast);
+    setTimeout(() => hide(errorToast), 6000);
   }
 
+  function updateCharCount() {
+    const len = inputEl.value.length;
+    charCount.textContent = `${len} character${len !== 1 ? 's' : ''}`;
+  }
+
+  function setLoading(on) {
+    translateBtn.disabled = on;
+    if (on) {
+      btnText.textContent = 'Translating…';
+      show(btnLoader);
+    } else {
+      btnText.textContent = 'Translate';
+      hide(btnLoader);
+    }
+  }
+
+  function resetResults() {
+    outputEl.innerHTML = '<span class="output-placeholder">Translation will appear here</span>';
+    methodBadge.textContent = '';
+    methodBadge.className = 'method-badge';
+    hide(reasoningSec);
+    hide(wbwSec);
+    hide(matchesSec);
+    hide(errorToast);
+    matchesList.innerHTML = '';
+  }
+
+  /* ── Health check ── */
   async function checkHealth() {
-    if (!statusEl) return;
     try {
       const resp = await fetch(`${API_BASE}/api/health`);
       const data = await resp.json();
       if (data && data.ok) {
-        const llm = data.llmAvailable ? 'LLM ready' : 'LLM disabled';
-        setStatus(`Server: online | ${llm} | entries: ${data.dictionaryEntries}`);
+        const llm = data.llmAvailable ? 'AI ready' : 'AI off';
+        statusEl.textContent = `Online · ${llm} · ${data.dictionaryEntries} entries`;
+        statusEl.className = 'status-pill online';
       } else {
-        setStatus('Server: online (health unknown)');
+        statusEl.textContent = 'Unknown status';
+        statusEl.className = 'status-pill';
       }
-    } catch (err) {
-      setStatus('Server: offline (start server on http://localhost:5000)');
+    } catch {
+      statusEl.textContent = 'Offline';
+      statusEl.className = 'status-pill offline';
     }
   }
 
-  function clearResults() {
-    out.innerHTML = '';
-  }
+  /* ── Swap direction ── */
+  swapBtn.addEventListener('click', () => {
+    direction = direction === 'fr-md' ? 'md-fr' : 'fr-md';
+    sourceLang.textContent = direction === 'fr-md' ? 'French' : 'Medumba';
+    targetLang.textContent = direction === 'fr-md' ? 'Medumba' : 'French';
+    resetResults();
+  });
 
-  function addCard({ label, source, target, meta }) {
-    const card = document.createElement('div');
-    card.className = 'card';
-    const left = document.createElement('div');
-    left.className = 'left';
-    if (label) {
-      const labelEl = document.createElement('div');
-      labelEl.className = 'label';
-      labelEl.textContent = label;
-      left.appendChild(labelEl);
-    }
-    if (source) {
-      const sourceEl = document.createElement('div');
-      sourceEl.className = 'source';
-      sourceEl.textContent = source;
-      left.appendChild(sourceEl);
-    }
-    if (target) {
-      const targetEl = document.createElement('div');
-      targetEl.className = 'target';
-      targetEl.textContent = target;
-      left.appendChild(targetEl);
-    }
-    if (meta) {
-      const metaEl = document.createElement('div');
-      metaEl.className = 'meta';
-      metaEl.textContent = meta;
-      left.appendChild(metaEl);
-    }
-    card.appendChild(left);
-    out.appendChild(card);
-  }
+  /* ── Clear ── */
+  clearBtn.addEventListener('click', () => {
+    inputEl.value = '';
+    updateCharCount();
+    resetResults();
+    inputEl.focus();
+  });
 
-  function addSuggestions(suggestions, direction) {
-    const details = document.createElement('details');
-    details.className = 'card details';
-    const summary = document.createElement('summary');
-    summary.textContent = `Dictionary matches (${suggestions.length})`;
-    details.appendChild(summary);
+  /* ── Copy ── */
+  copyBtn.addEventListener('click', () => {
+    const text = outputEl.textContent;
+    if (!text || outputEl.querySelector('.output-placeholder')) return;
+    navigator.clipboard.writeText(text).then(() => {
+      const prev = copyBtn.innerHTML;
+      copyBtn.textContent = '✓';
+      setTimeout(() => { copyBtn.innerHTML = prev; }, 1200);
+    });
+  });
 
-    const list = document.createElement('div');
-    list.className = 'suggestions';
-    for (const s of suggestions) {
+  /* ── Char count ── */
+  inputEl.addEventListener('input', updateCharCount);
+
+  /* ── Render matches list ── */
+  function renderMatches(suggestions, examples) {
+    matchesList.innerHTML = '';
+    const all = [];
+    if (Array.isArray(suggestions)) {
+      for (const s of suggestions) all.push({ src: s.source, tgt: s.target, type: s.match || 'fuzzy', origin: 'dict' });
+    }
+    if (Array.isArray(examples)) {
+      for (const e of examples) all.push({ src: e.source, tgt: e.target, type: e.match || 'example', origin: 'example' });
+    }
+    if (!all.length) { hide(matchesSec); return; }
+
+    matchCount.textContent = all.length;
+    show(matchesSec);
+
+    for (const item of all) {
       const row = document.createElement('div');
-      row.className = 'suggestion-row';
-      const src = document.createElement('div');
-      src.className = 'suggestion-source';
-      src.textContent = s.source;
-      const tgt = document.createElement('div');
-      tgt.className = 'suggestion-target';
-      tgt.textContent = s.target;
-      const meta = document.createElement('div');
-      meta.className = 'meta';
-      meta.textContent = s.match ? `match: ${s.match} | score: ${s.score}` : `score: ${s.score}`;
-      row.appendChild(src);
-      row.appendChild(tgt);
-      row.appendChild(meta);
-      list.appendChild(row);
-    }
-    details.appendChild(list);
-    out.appendChild(details);
-  }
+      row.className = 'match-row';
 
-  function renderResult(data) {
-    clearResults();
-    if (!data) {
-      addCard({
-        label: 'Error',
-        target: 'No response from server.',
-      });
-      return;
-    }
+      const src = document.createElement('span');
+      src.className = 'match-src';
+      src.textContent = item.src;
 
-    if (data.error) {
-      addCard({
-        label: 'Error',
-        target: data.error,
-      });
-    }
+      const tgt = document.createElement('span');
+      tgt.className = 'match-tgt';
+      tgt.textContent = item.tgt;
 
-    if (data.translation) {
-      const label = data.llmUsed ? 'LLM Translation' : 'Dictionary Translation';
-      let meta = data.llmUsed ? `Model: ${data.model}` : 'Exact dictionary match';
-      if (data.fallback === 'word_by_word') meta = 'Word-by-word fallback';
-      addCard({
-        label,
-        source: data.input,
-        target: data.translation,
-        meta,
-      });
-    } else {
-      addCard({
-        label: 'No Exact Translation',
-        target: 'Use the dictionary suggestions below or enable the LLM.',
-      });
-    }
+      const tag = document.createElement('span');
+      tag.className = 'match-tag ' + (item.type === 'exact' ? 'exact' : item.type === 'token' ? 'token' : 'fuzzy');
+      tag.textContent = item.origin === 'example' ? 'example' : item.type;
 
-    if (data.wordByWord && data.wordByWord !== data.translation) {
-      addCard({
-        label: 'Word-by-word',
-        source: data.input,
-        target: data.wordByWord,
-        meta: 'Dictionary-based word mapping',
-      });
-    }
-
-    if (Array.isArray(data.warnings) && data.warnings.length) {
-      addCard({
-        label: 'Warning',
-        target: data.warnings.join(' | '),
-      });
-    }
-
-    const suggestions = Array.isArray(data.suggestions) ? data.suggestions : [];
-    if (suggestions.length) {
-      addSuggestions(suggestions, data.direction);
+      row.append(src, tgt, tag);
+      matchesList.appendChild(row);
     }
   }
 
+  /* ── Translate ── */
   async function translate() {
-    const input = qEl.value.trim();
-    const direction = dirEl.value;
+    const input = inputEl.value.trim();
     if (!input) {
-      clearResults();
-      addCard({
-        label: 'Input Required',
-        target: 'Type a word or phrase to translate.',
-      });
+      showError('Please enter text to translate.');
       return;
     }
 
-    btn.disabled = true;
-    btn.textContent = 'Translating...';
-    clearResults();
-    addCard({ label: 'Working', target: 'Fetching translation and matches...' });
+    setLoading(true);
+    resetResults();
+    outputEl.innerHTML = '<span class="output-placeholder">Thinking…</span>';
 
     try {
       const resp = await fetch(`${API_BASE}/api/translate`, {
@@ -175,23 +169,67 @@
           input,
           direction,
           useLlm: Boolean(useLlmEl && useLlmEl.checked),
-          maxSuggestions: 8,
+          maxSuggestions: 12,
         }),
       });
       const data = await resp.json();
-      renderResult(data);
+
+      // -- Translation output
+      if (data.translation) {
+        outputEl.textContent = data.translation;
+      } else {
+        outputEl.innerHTML = '<span class="output-placeholder">No translation available</span>';
+      }
+
+      // -- Method badge
+      if (data.llmUsed) {
+        methodBadge.textContent = 'AI';
+        methodBadge.className = 'method-badge llm';
+      } else if (data.fallback === 'dictionary_exact' || data.fallback === 'pair_exact') {
+        methodBadge.textContent = 'Dictionary';
+        methodBadge.className = 'method-badge dict';
+      } else if (data.fallback === 'word_by_word') {
+        methodBadge.textContent = 'Word-by-word';
+        methodBadge.className = 'method-badge wbw';
+      }
+
+      // -- Reasoning
+      if (data.reasoning) {
+        reasoningTxt.textContent = data.reasoning;
+        show(reasoningSec);
+      }
+
+      // -- Word-by-word
+      if (data.wordByWord && data.wordByWord !== data.translation) {
+        wbwTxt.textContent = data.wordByWord;
+        show(wbwSec);
+      }
+
+      // -- Matches
+      renderMatches(data.suggestions, data.examples);
+
+      // -- Warnings / errors
+      if (data.error) showError(data.error);
+      if (Array.isArray(data.warnings) && data.warnings.length) {
+        showError(data.warnings.join(' | '));
+      }
     } catch (err) {
-      renderResult({ error: err.message || String(err) });
+      showError(err.message || 'Network error');
+      outputEl.innerHTML = '<span class="output-placeholder">Translation failed</span>';
     } finally {
-      btn.disabled = false;
-      btn.textContent = 'Translate';
+      setLoading(false);
     }
   }
 
-  btn.addEventListener('click', translate);
-  qEl.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') translate();
+  translateBtn.addEventListener('click', translate);
+  inputEl.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      translate();
+    }
   });
 
+  /* ── Init ── */
+  updateCharCount();
   checkHealth();
 })();

@@ -19,23 +19,46 @@ const PAIR_PATH = process.env.PAIR_PATH || path.join(__dirname, '..', 'outputs',
 const MAX_SUGGESTIONS = 12;
 const LLM_SUGGESTION_LIMIT = 6;
 const LLM_EXAMPLE_LIMIT = 6;
-const SYSTEM_INSTRUCTION =
-  'You are a translation engine for French and Medumba. ' +
-  'Return only valid JSON with a single key "translation". ' +
-  'Do not include explanations, prefixes, or extra keys.';
+const SYSTEM_INSTRUCTION = `You are an expert linguist specializing in Medumba (Mə̀dʉ̀mbà), a Grassfields Bantu language from the Bangangté region of western Cameroon.
+
+MEDUMBA LANGUAGE NOTES:
+- Special characters: ə, ʉ, α, ŋ, ɛ, ɔ with tone diacritics (à, á, â, è, ê, etc.)
+- SVO word order; the infinitive marker "Nə̀" often precedes verbs
+- Noun class prefixes are common; tone is phonemic — preserve diacritics exactly
+
+You respond with a JSON object containing exactly two fields.
+
+FIELD 1 — "reasoning" (string):
+Put ALL of your analytical thinking here: morpheme identification, dictionary lookups, grammar notes, and step-by-step explanation. 2-4 sentences.
+
+FIELD 2 — "translation" (string):
+The FINAL translated text ONLY. This field must contain NOTHING except the translated words in the target language. No English, no French metalanguage, no labels like "Translation:", no reasoning, no source text repetition. Just the pure translated output with correct diacritics.
+
+CRITICAL: The "translation" field must be SHORT — just the translated phrase/sentence. ALL explanation goes in "reasoning".`;
+
+const RELEVANCE_SCORE_THRESHOLD = 25; // suggestions scoring above this are excluded from LLM context
 
 const GENERATION_CONFIG = {
-  temperature: 0.2,
-  topP: 0.9,
-  maxOutputTokens: 120,
+  temperature: 0.3,
+  topP: 0.92,
+  maxOutputTokens: 1024,
   responseMimeType: 'application/json',
   responseJsonSchema: {
     type: 'object',
+    title: 'TranslationResult',
+    description: 'A translation from one language to another with step-by-step reasoning.',
     properties: {
-      translation: { type: 'string' },
+      reasoning: {
+        type: 'string',
+        description: 'Step-by-step explanation of how you arrived at the translation (2-4 sentences). Mention which dictionary entries or examples you used, morphological analysis, and any assumptions made.',
+      },
+      translation: {
+        type: 'string',
+        description: 'ONLY the final translated words in the target language. No reasoning, no explanations, no labels, no source text. Example: if translating French to Medumba, this field contains ONLY Medumba words.',
+      },
     },
-    required: ['translation'],
-    additionalProperties: false,
+    required: ['reasoning', 'translation'],
+    propertyOrdering: ['reasoning', 'translation'],
   },
 };
 
@@ -348,89 +371,148 @@ function wordByWordTranslate(input, direction) {
   return out.join('');
 }
 
-function buildUserContent(input, direction, suggestions, examples) {
+function filterRelevant(items, threshold = RELEVANCE_SCORE_THRESHOLD) {
+  return items.filter((item) => item.score <= threshold);
+}
+
+function buildUserContent(input, direction, suggestions, examples, wordByWord) {
   const sourceLang = direction === 'fr-md' ? 'French' : 'Medumba';
   const targetLang = direction === 'fr-md' ? 'Medumba' : 'French';
-  let prompt = '';
-  prompt += `Translate from ${sourceLang} to ${targetLang}.\n`;
-  prompt += 'Use dictionary suggestions as authoritative when they apply.\n';
-  prompt += 'Return one best translation.\n';
-  if (suggestions.length) {
-    prompt += 'Dictionary suggestions:\n';
-    for (const s of suggestions) {
-      prompt += `- ${s.source} -> ${s.target}\n`;
+
+  // Only send relevant matches to the LLM
+  const relevantSuggestions = filterRelevant(suggestions);
+  const relevantExamples = filterRelevant(examples);
+
+  let prompt = `TASK: Translate the following text from ${sourceLang} to ${targetLang}.\n\n`;
+
+  if (relevantSuggestions.length) {
+    prompt += 'DICTIONARY MATCHES (authoritative — use these when they are relevant to the input):\n';
+    for (const s of relevantSuggestions) {
+      prompt += `  • ${s.source} → ${s.target}`;
+      if (s.match === 'exact') prompt += '  [EXACT MATCH]';
+      prompt += '\n';
     }
+    prompt += '\n';
   } else {
-    prompt += 'Dictionary suggestions: none\n';
+    prompt += 'DICTIONARY MATCHES: None found. Use your own knowledge of Medumba to translate.\n\n';
   }
-  if (examples.length) {
-    prompt += 'Example translations:\n';
-    for (const e of examples) {
-      prompt += `- ${e.source} -> ${e.target}\n`;
+
+  if (relevantExamples.length) {
+    prompt += 'EXAMPLE TRANSLATIONS (from training corpus — use as reference for grammar and vocabulary):\n';
+    for (const e of relevantExamples) {
+      prompt += `  • ${e.source} → ${e.target}\n`;
     }
+    prompt += '\n';
   }
-  prompt += `User input: ${input}\n`;
+
+  if (wordByWord && wordByWord !== input) {
+    prompt += `WORD-BY-WORD BREAKDOWN: ${wordByWord}\n`;
+    prompt += '(Use as a rough guide; improve fluency and accuracy.)\n\n';
+  }
+
+  prompt += `INPUT TEXT: "${input}"\n\n`;
+  prompt += `Provide ONLY the ${targetLang} translation in the "translation" field. `;
+  prompt += 'Explain your reasoning in the "reasoning" field. ';
+  prompt += `Do NOT include the source text, language labels, or any prefixes in the translation — just the raw ${targetLang} text.`;
   return prompt;
 }
 
-function extractTranslation(text) {
-  if (!text) return null;
-  let cleaned = text.trim();
-  cleaned = cleaned.replace(/^```(?:json)?/i, '').replace(/```$/i, '').trim();
-  if (!cleaned) return null;
+// Post-process: strip reasoning/metalanguage that sometimes leaks into translation field
+function sanitizeTranslation(raw) {
+  if (!raw) return raw;
+  let t = raw.trim();
+  // Remove common leakage patterns
+  t = t.replace(/^(Here is|Voici|Translation|Traduction|The translation)[:\s]*/i, '');
+  t = t.replace(/^["']+|["']+$/g, '');
+  // If it looks like a full sentence of English/French explanation (>100 chars with analytical keywords), it's reasoning
+  if (t.length > 120 && /\b(identified|used|combined|translat|dictionari|morphem|corpus|matched|looked)/i.test(t)) {
+    // Try to extract the actual translation — often appears after a colon or quote
+    const afterColon = t.match(/[:\."']\s*([^."']{2,60})\s*$/);
+    if (afterColon) return afterColon[1].trim();
+    return null; // Can't salvage — will fall through to dictionary fallback
+  }
+  return t || null;
+}
 
+function extractTranslation(text) {
+  if (!text) return { translation: null, reasoning: null };
+  let cleaned = text.trim();
+
+  // Structured output: response.text should already be valid JSON
+  try {
+    const parsed = JSON.parse(cleaned);
+    if (parsed && typeof parsed.translation === 'string') {
+      return {
+        translation: sanitizeTranslation(parsed.translation),
+        reasoning: typeof parsed.reasoning === 'string' ? parsed.reasoning.trim() : null,
+      };
+    }
+  } catch (e) {
+    console.warn('[extractTranslation] JSON.parse failed on structured output:', e.message);
+  }
+
+  // Fallback: strip markdown fences and try again
+  cleaned = cleaned.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim();
   const jsonStart = cleaned.indexOf('{');
   const jsonEnd = cleaned.lastIndexOf('}');
   if (jsonStart !== -1 && jsonEnd > jsonStart) {
-    const candidate = cleaned.slice(jsonStart, jsonEnd + 1);
     try {
-      const parsed = JSON.parse(candidate);
+      const parsed = JSON.parse(cleaned.slice(jsonStart, jsonEnd + 1));
       if (parsed && typeof parsed.translation === 'string') {
-        return parsed.translation.trim();
+        return {
+          translation: sanitizeTranslation(parsed.translation),
+          reasoning: typeof parsed.reasoning === 'string' ? parsed.reasoning.trim() : null,
+        };
       }
-    } catch (err) {
-      // fall through to regex/text handling
-    }
+    } catch (e) { /* continue */ }
   }
 
-  const match = cleaned.match(/"translation"\s*:\s*"([^"]+)"/i);
-  if (match) return match[1].trim();
+  // Regex fallback
+  const matchT = cleaned.match(/"translation"\s*:\s*"((?:[^"\\]|\\.)*)"/i);
+  const matchR = cleaned.match(/"reasoning"\s*:\s*"((?:[^"\\]|\\.)*)"/i);
+  if (matchT) {
+    return {
+      translation: sanitizeTranslation(matchT[1]),
+      reasoning: matchR ? matchR[1].trim() : null,
+    };
+  }
 
-  const firstLine = cleaned.split('\n').map((line) => line.trim()).find(Boolean) || cleaned;
-  return firstLine.replace(/^"+|"+$/g, '').trim();
+  // Last resort: return raw text as translation
+  return { translation: sanitizeTranslation(cleaned) || null, reasoning: null };
 }
 
-async function translateWithLLM(input, direction, suggestions, examples) {
+async function translateWithLLM(input, direction, suggestions, examples, wordByWord) {
   if (!ai) {
-    return { translation: null, llmUsed: false, error: 'GEMINI_API_KEY not configured' };
+    return { translation: null, reasoning: null, llmUsed: false, error: 'GEMINI_API_KEY not configured' };
   }
-  const prompt = buildUserContent(input, direction, suggestions, examples);
+  const prompt = buildUserContent(input, direction, suggestions, examples, wordByWord);
   const contents = [{ role: 'user', parts: [{ text: prompt }] }];
   const primaryConfig = { ...GENERATION_CONFIG, systemInstruction: SYSTEM_INSTRUCTION };
   const fallbackConfig = {
-    temperature: 0.2,
-    topP: 0.9,
-    maxOutputTokens: 120,
+    temperature: 0.3,
+    topP: 0.92,
+    maxOutputTokens: 1024,
     systemInstruction: SYSTEM_INSTRUCTION,
   };
+  async function attempt(config) {
+    const response = await ai.models.generateContent({
+      model: MODEL,
+      contents,
+      config,
+    });
+    const text = response && response.text ? response.text : '';
+    return extractTranslation(text);
+  }
   try {
-    const response = await ai.models.generateContent({
-      model: MODEL,
-      contents,
-      config: primaryConfig,
-    });
-    const text = response && response.text ? response.text : '';
-    const extracted = extractTranslation(text);
-    return { translation: extracted || null, llmUsed: true };
+    const result = await attempt(primaryConfig);
+    return { ...result, llmUsed: true };
   } catch (err) {
-    const response = await ai.models.generateContent({
-      model: MODEL,
-      contents,
-      config: fallbackConfig,
-    });
-    const text = response && response.text ? response.text : '';
-    const extracted = extractTranslation(text);
-    return { translation: extracted || null, llmUsed: true };
+    try {
+      const result = await attempt(fallbackConfig);
+      return { ...result, llmUsed: true };
+    } catch (err2) {
+      return { translation: null, reasoning: null, llmUsed: false, error: err2.message || String(err2) };
+    }
   }
 }
 
@@ -463,23 +545,33 @@ app.post('/api/translate', async (req, res) => {
   const examples = retrieveExamples(input, direction, LLM_EXAMPLE_LIMIT);
   const wordByWord = wordByWordTranslate(input, direction);
 
-  let translation = exactPairTranslation(input, direction);
-  let fallback = translation ? 'pair_exact' : 'none';
-  if (!translation) {
-    translation = exactTranslation(input, direction);
-    if (translation) fallback = 'dictionary_exact';
+  // Check exact matches (used as fallback when LLM unavailable)
+  let exactMatch = exactPairTranslation(input, direction);
+  let exactSource = exactMatch ? 'pair_exact' : null;
+  if (!exactMatch) {
+    exactMatch = exactTranslation(input, direction);
+    if (exactMatch) exactSource = 'dictionary_exact';
   }
+
+  let translation = null;
+  let reasoning = null;
+  let fallback = 'none';
   let llmUsed = false;
   let error = null;
   let warnings = [];
 
-  if (useLlm && ai && !translation) {
+  // When LLM is enabled, always use it for reasoning — even with exact matches
+  if (useLlm && ai) {
     try {
-      const llmResult = await translateWithLLM(input, direction, llmSuggestions, examples);
+      const llmResult = await translateWithLLM(input, direction, llmSuggestions, examples, wordByWord);
       if (llmResult.translation) {
         translation = llmResult.translation;
+        reasoning = llmResult.reasoning || null;
         fallback = 'llm';
         llmUsed = true;
+      }
+      if (llmResult.error) {
+        error = llmResult.error;
       }
     } catch (err) {
       error = err.message || String(err);
@@ -488,9 +580,18 @@ app.post('/api/translate', async (req, res) => {
     warnings.push('LLM disabled: GEMINI_API_KEY not configured');
   }
 
+  // Fall back to exact dictionary/pair match
+  if (!translation && exactMatch) {
+    translation = exactMatch;
+    fallback = exactSource;
+    reasoning = 'Direct match found in dictionary/training data.';
+  }
+
+  // Fall back to word-by-word
   if (!translation && wordByWord) {
     translation = wordByWord;
     fallback = 'word_by_word';
+    reasoning = 'No exact match or LLM result available. Showing word-by-word dictionary lookup.';
   }
 
   return res.json({
@@ -501,9 +602,11 @@ app.post('/api/translate', async (req, res) => {
     model: MODEL,
     llmUsed,
     translation,
+    reasoning,
     fallback,
-    wordByWord,
+    wordByWord: wordByWord || null,
     suggestions,
+    examples,
     error,
     warnings,
   });
