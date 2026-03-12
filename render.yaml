@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: medumba-ai
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node genai_proxy.js
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false  # you'll set this manually in the Render dashboard
+      - key: NODE_ENV
+        value: production
