@@ -1,0 +1,54 @@
+# Environment files
+.env
+server/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Node
+node_modules/
+server/node_modules/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Build outputs
+dist/
+build/
+
+# Large model/checkpoint files - exclude heavy artifacts
+outputs/medumba_lora_byt5_smoke/
+outputs/**/adapter_model.safetensors
+outputs/**/adapter_model.pt
+outputs/**/optimizer.pt
+outputs/**/scheduler.pt
+outputs/**/rng_state.pth
+outputs/**/checkpoint-*/
+
+# Common ML artifacts
+*.ckpt
+*.pth
+*.safetensors
+*.pt
+
+# Logs
+logs/
+*.log
+
+# Local test/state
+*.cache
+*.sqlite
+
+# Keep JSONL and small text outputs by default; uncomment to force-ignore
+# outputs/*.jsonl

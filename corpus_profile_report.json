@@ -1,0 +1,196 @@
+{
+  "root": "C:\\Users\\yaweh\\OneDrive\\Documents\\Medumba AI",
+  "xlsx_files": [
+    {
+      "file": "Dictionnaire Ncobnkn 1.xlsx",
+      "sheets": [
+        {
+          "sheet": "Feuil1",
+          "rows": 4285,
+          "cols": 6,
+          "columns": [
+            "Mot",
+            "Autre forme",
+            "Definition",
+            "Nature du mot",
+            "Francais",
+            "Anglais"
+          ],
+          "missing_by_column": {
+            "Mot": 27,
+            "Autre forme": 4195,
+            "Definition": 4276,
+            "Nature du mot": 503,
+            "Francais": 28,
+            "Anglais": 4285
+          },
+          "sample_rows": [
+            {
+              "Mot": "",
+              "Autre forme": "",
+              "Definition": "",
+              "Nature du mot": "",
+              "Francais": "",
+              "Anglais": ""
+            },
+            {
+              "Mot": "Ngàfαncʉꞌ (1/6)",
+              "Autre forme": "Ghǎfαncʉꞌ",
+              "Definition": "Mɛ̀nntʉ̀n ǎ nkə mfâ' ntʉ̂m nkὰn nα",
+              "Nature du mot": "Lɛn",
+              "Francais": "Le̍gislateur",
+              "Anglais": ""
+            },
+            {
+              "Mot": "Njὰb (1)",
+              "Autre forme": "",
+              "Definition": "Mfǔ ntʉ mbὰ mfǔ nə̀nὰ bò kû'ni nə̀ fɛd lα",
+              "Nature du mot": "Lɛn",
+              "Francais": "Le̍gume",
+              "Anglais": ""
+            }
+          ]
+        },
+        {
+          "sheet": "Feuil2",
+          "rows": 0,
+          "cols": 0,
+          "columns": [],
+          "missing_by_column": {},
+          "sample_rows": []
+        },
+        {
+          "sheet": "Feuil3",
+          "rows": 0,
+          "cols": 0,
+          "columns": [],
+          "missing_by_column": {},
+          "sample_rows": []
+        }
+      ]
+    },
+    {
+      "file": "Dictionnaire Ncobnkn.xlsx",
+      "sheets": [
+        {
+          "sheet": "Feuil1",
+          "rows": 4285,
+          "cols": 6,
+          "columns": [
+            "Mot",
+            "Autre forme",
+            "Definition",
+            "Nature du mot",
+            "Francais",
+            "Anglais"
+          ],
+          "missing_by_column": {
+            "Mot": 27,
+            "Autre forme": 4195,
+            "Definition": 4276,
+            "Nature du mot": 503,
+            "Francais": 28,
+            "Anglais": 4285
+          },
+          "sample_rows": [
+            {
+              "Mot": "",
+              "Autre forme": "",
+              "Definition": "",
+              "Nature du mot": "",
+              "Francais": "",
+              "Anglais": ""
+            },
+            {
+              "Mot": "Ngàfαncʉꞌ (1/6)",
+              "Autre forme": "Ghǎfαncʉꞌ",
+              "Definition": "Mɛ̀nntʉ̀n ǎ nkə mfâ' ntʉ̂m nkὰn nα",
+              "Nature du mot": "Lɛn",
+              "Francais": "Le̍gislateur",
+              "Anglais": ""
+            },
+            {
+              "Mot": "Njὰb (1)",
+              "Autre forme": "",
+              "Definition": "Mfǔ ntʉ mbὰ mfǔ nə̀nὰ bò kû'ni nə̀ fɛd lα",
+              "Nature du mot": "Lɛn",
+              "Francais": "Le̍gume",
+              "Anglais": ""
+            }
+          ]
+        },
+        {
+          "sheet": "Feuil2",
+          "rows": 0,
+          "cols": 0,
+          "columns": [],
+          "missing_by_column": {},
+          "sample_rows": []
+        },
+        {
+          "sheet": "Feuil3",
+          "rows": 0,
+          "cols": 0,
+          "columns": [],
+          "missing_by_column": {},
+          "sample_rows": []
+        }
+      ]
+    },
+    {
+      "file": "Expressions Medumba.xlsx",
+      "sheets": [
+        {
+          "sheet": "Feuil1",
+          "rows": 258,
+          "cols": 2,
+          "columns": [
+            "Ma mère vient d’arriver.",
+            "Mə̂ α yǒg ne sə̂’ ə"
+          ],
+          "missing_by_column": {
+            "Ma mère vient d’arriver.": 0,
+            "Mə̂ α yǒg ne sə̂’ ə": 0
+          },
+          "sample_rows": [
+            {
+              "Ma mère vient d’arriver.": "Il vient bientôt",
+              "Mə̂ α yǒg ne sə̂’ ə": "Ndàʼndàʼa sê’"
+            },
+            {
+              "Ma mère vient d’arriver.": "Notre truie à mis bas.",
+              "Mə̂ α yǒg ne sə̂’ ə": "Zèbə̀ ngʉnyα̌m bwə"
+            },
+            {
+              "Ma mère vient d’arriver.": "Ce livre s’intitule ville cruelle",
+              "Mə̂ α yǒg ne sə̂’ ə": "Lɛ̂n sə̂n bu’ ŋwà’ nǐ lî bə α̂ ‹‹Tʉsɔ̌ ngəʼ, cʉαgkɛ̂d Tʉsɔ››"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pdf_files": [
+    {
+      "file": "Dictionnaire Ncobnkn.pdf",
+      "pages": 282,
+      "sample_pages": [
+        {
+          "page": 1,
+          "chars": 816,
+          "snippet": "Mot Autre forme Ngàfαncʉꞌ (1/6) Ghǎfαncʉꞌ Njὰb (1) Nə̀fikɛlə (adj) Fikɛ̀d  (1) Nə̀fikɛlə (1) Nkinə(4) Ngànkinə (1/6) Ghǎnkinə Dʉ̌ ꞌghǎnkin(ə) (1/6) Ndǎmnjʉ (adv) Lα̂gŋwàꞌni (5/4) Miα̂gŋwàꞌnì  Ŋwàꞌni (1/6) Ncàꞌ (1/6) Nə̀ bʉꞌ nsi (V) Mbʉꞌ nsi Nə̀ lǒtʉ (V) ndôtʉ Nə̀ lǒnsi (V) Ndônsi Nə̀ koꞌo (V) Nko'o Kə̀kǔbncù (3/4) NKə̀kǔbncù  Lə̀ (5/4) Ndə̀ Shudnyὰm (1/6) Nshudnyὰm Nkʉ (3/6) "
+        },
+        {
+          "page": 2,
+          "chars": 847,
+          "snippet": "Buꞌŋwàꞌnicɔ̀ (1/6  Mbuꞌŋwàꞌnìcɔ̀ Buꞌŋwàꞌninkʉd (5/4 Mbuꞌŋwàꞌnìnkʉd Nə̀ swɛ̀n(ə) (V) Nswɛ̂ n(ə) Nə̀ fα (V) Mfα Kὰn (V) Nkὰn Ncʉꞌ (1/6) Nə̀sὰ (adv) Ngʉanə̀sὰ (adv) Nə̀sàgə (1/6) Nsàg Nsὰ (adj) Nə̀sàgə (1/6) Nsàg Tsə̂ bàꞌ (3/6) Ghamtə̀ (1/6) ŋamtə Nə̀ ghamte (V) ŋamtə Nə̀ cwiꞌi (V) Ncwi'i Swəncù (1/6) Nswə̂ ncù Nə̀lɛ̀lə (adj) Lɛ̀dwud (1) Məsěkàꞌ (V) Nə̀ kèꞌe (adj) Nkê'e Nə̀kèꞌe ("
+        },
+        {
+          "page": 3,
+          "chars": 840,
+          "snippet": "Bu (3/4) Mbu Bûfàꞌ (3/4) Mbûfàꞌ Nkα̂bfàꞌ (1/4) Ncoꞌfàꞌ (5/4) Ndɔ̌ nnî (adv) Baꞌ (3/4) Mbà' Ndα (1/6) Tunndα (3/6) Ntǔnndα Dʉ̌ ꞌfoŋ(ə) (1/6) Ndα̂foŋ(ə) (1/6) Ndα̂nsàfoŋ(ə) (1/6) Ndα̂kwαn  (1/6) Ngə̀fələ (1/6) Ngə̀fə̂ d Ngàtswìtə̀ (1/6) ghǎtswìtə̀ Tα (1/6) Tα̂ndα (1/6) Mα̂fàꞌ (1/6) Mαndα (1/6) Mɛ̀nnzwîndα (1/6) Nsὰhntubu (1/4) Nə̀kùꞌu (adj) Nkû'u Nə̀kǔꞌntse () Bèn yαmə () Kə̀bwɔ̀"
+        }
+      ]
+    }
+  ]
+}

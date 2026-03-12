@@ -1,0 +1,440 @@
+{
+  "seed": 42,
+  "counts": {
+    "dictionary_rows_raw": 4257,
+    "expressions_rows_raw": 259,
+    "rows_after_dedup": 4434,
+    "train_rows": 3768,
+    "val_rows": 443,
+    "test_rows": 223,
+    "train_pairs": 7536,
+    "val_pairs": 886,
+    "test_pairs": 446
+  },
+  "normalization": {
+    "unicode_normalization": "NFC",
+    "replacements": {
+      " ": " ",
+      "’": "ꞌ",
+      "‘": "ꞌ",
+      "ʼ": "ꞌ",
+      "'": "ꞌ",
+      "\t": " "
+    },
+    "note": "Apostrophe-like characters are unified to U+A78C for consistency."
+  },
+  "char_report": {
+    "total_chars": 90126,
+    "unique_non_ascii": 60,
+    "top_non_ascii": [
+      {
+        "char": "ə",
+        "codepoint": "U+0259",
+        "name": "LATIN SMALL LETTER SCHWA",
+        "count": 4037
+      },
+      {
+        "char": "̀",
+        "codepoint": "U+0300",
+        "name": "COMBINING GRAVE ACCENT",
+        "count": 2581
+      },
+      {
+        "char": "ꞌ",
+        "codepoint": "U+A78C",
+        "name": "LATIN SMALL LETTER SALTILLO",
+        "count": 1470
+      },
+      {
+        "char": "α",
+        "codepoint": "U+03B1",
+        "name": "GREEK SMALL LETTER ALPHA",
+        "count": 907
+      },
+      {
+        "char": "à",
+        "codepoint": "U+00E0",
+        "name": "LATIN SMALL LETTER A WITH GRAVE",
+        "count": 879
+      },
+      {
+        "char": "ʉ",
+        "codepoint": "U+0289",
+        "name": "LATIN SMALL LETTER U BAR",
+        "count": 802
+      },
+      {
+        "char": "ɛ",
+        "codepoint": "U+025B",
+        "name": "LATIN SMALL LETTER OPEN E",
+        "count": 534
+      },
+      {
+        "char": "̌",
+        "codepoint": "U+030C",
+        "name": "COMBINING CARON",
+        "count": 520
+      },
+      {
+        "char": "̂",
+        "codepoint": "U+0302",
+        "name": "COMBINING CIRCUMFLEX ACCENT",
+        "count": 513
+      },
+      {
+        "char": "ŋ",
+        "codepoint": "U+014B",
+        "name": "LATIN SMALL LETTER ENG",
+        "count": 507
+      },
+      {
+        "char": "̍",
+        "codepoint": "U+030D",
+        "name": "COMBINING VERTICAL LINE ABOVE",
+        "count": 391
+      },
+      {
+        "char": "ù",
+        "codepoint": "U+00F9",
+        "name": "LATIN SMALL LETTER U WITH GRAVE",
+        "count": 335
+      },
+      {
+        "char": "é",
+        "codepoint": "U+00E9",
+        "name": "LATIN SMALL LETTER E WITH ACUTE",
+        "count": 328
+      },
+      {
+        "char": "ɔ",
+        "codepoint": "U+0254",
+        "name": "LATIN SMALL LETTER OPEN O",
+        "count": 273
+      },
+      {
+        "char": "ὰ",
+        "codepoint": "U+1F70",
+        "name": "GREEK SMALL LETTER ALPHA WITH VARIA",
+        "count": 242
+      },
+      {
+        "char": "è",
+        "codepoint": "U+00E8",
+        "name": "LATIN SMALL LETTER E WITH GRAVE",
+        "count": 229
+      },
+      {
+        "char": "ǎ",
+        "codepoint": "U+01CE",
+        "name": "LATIN SMALL LETTER A WITH CARON",
+        "count": 208
+      },
+      {
+        "char": "ì",
+        "codepoint": "U+00EC",
+        "name": "LATIN SMALL LETTER I WITH GRAVE",
+        "count": 186
+      },
+      {
+        "char": "ò",
+        "codepoint": "U+00F2",
+        "name": "LATIN SMALL LETTER O WITH GRAVE",
+        "count": 176
+      },
+      {
+        "char": "û",
+        "codepoint": "U+00FB",
+        "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX",
+        "count": 143
+      },
+      {
+        "char": "ǒ",
+        "codepoint": "U+01D2",
+        "name": "LATIN SMALL LETTER O WITH CARON",
+        "count": 129
+      },
+      {
+        "char": "â",
+        "codepoint": "U+00E2",
+        "name": "LATIN SMALL LETTER A WITH CIRCUMFLEX",
+        "count": 128
+      },
+      {
+        "char": "ǔ",
+        "codepoint": "U+01D4",
+        "name": "LATIN SMALL LETTER U WITH CARON",
+        "count": 120
+      },
+      {
+        "char": "ô",
+        "codepoint": "U+00F4",
+        "name": "LATIN SMALL LETTER O WITH CIRCUMFLEX",
+        "count": 114
+      },
+      {
+        "char": "î",
+        "codepoint": "U+00EE",
+        "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX",
+        "count": 99
+      },
+      {
+        "char": "ê",
+        "codepoint": "U+00EA",
+        "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX",
+        "count": 96
+      },
+      {
+        "char": "ǐ",
+        "codepoint": "U+01D0",
+        "name": "LATIN SMALL LETTER I WITH CARON",
+        "count": 57
+      },
+      {
+        "char": "Ŋ",
+        "codepoint": "U+014A",
+        "name": "LATIN CAPITAL LETTER ENG",
+        "count": 36
+      },
+      {
+        "char": "À",
+        "codepoint": "U+00C0",
+        "name": "LATIN CAPITAL LETTER A WITH GRAVE",
+        "count": 19
+      },
+      {
+        "char": "ě",
+        "codepoint": "U+011B",
+        "name": "LATIN SMALL LETTER E WITH CARON",
+        "count": 16
+      },
+      {
+        "char": "œ",
+        "codepoint": "U+0153",
+        "name": "LATIN SMALL LIGATURE OE",
+        "count": 13
+      },
+      {
+        "char": "ï",
+        "codepoint": "U+00EF",
+        "name": "LATIN SMALL LETTER I WITH DIAERESIS",
+        "count": 10
+      },
+      {
+        "char": "É",
+        "codepoint": "U+00C9",
+        "name": "LATIN CAPITAL LETTER E WITH ACUTE",
+        "count": 10
+      },
+      {
+        "char": "̩",
+        "codepoint": "U+0329",
+        "name": "COMBINING VERTICAL LINE BELOW",
+        "count": 7
+      },
+      {
+        "char": "ç",
+        "codepoint": "U+00E7",
+        "name": "LATIN SMALL LETTER C WITH CEDILLA",
+        "count": 5
+      },
+      {
+        "char": "́",
+        "codepoint": "U+0301",
+        "name": "COMBINING ACUTE ACCENT",
+        "count": 4
+      },
+      {
+        "char": "Ǹ",
+        "codepoint": "U+01F8",
+        "name": "LATIN CAPITAL LETTER N WITH GRAVE",
+        "count": 4
+      },
+      {
+        "char": "‹",
+        "codepoint": "U+2039",
+        "name": "SINGLE LEFT-POINTING ANGLE QUOTATION MARK",
+        "count": 4
+      },
+      {
+        "char": "›",
+        "codepoint": "U+203A",
+        "name": "SINGLE RIGHT-POINTING ANGLE QUOTATION MARK",
+        "count": 4
+      },
+      {
+        "char": "Ê",
+        "codepoint": "U+00CA",
+        "name": "LATIN CAPITAL LETTER E WITH CIRCUMFLEX",
+        "count": 4
+      },
+      {
+        "char": "Ꞌ",
+        "codepoint": "U+A78B",
+        "name": "LATIN CAPITAL LETTER SALTILLO",
+        "count": 3
+      },
+      {
+        "char": "̈",
+        "codepoint": "U+0308",
+        "name": "COMBINING DIAERESIS",
+        "count": 3
+      },
+      {
+        "char": "Œ",
+        "codepoint": "U+0152",
+        "name": "LATIN CAPITAL LIGATURE OE",
+        "count": 3
+      },
+      {
+        "char": "ẁ",
+        "codepoint": "U+1E81",
+        "name": "LATIN SMALL LETTER W WITH GRAVE",
+        "count": 2
+      },
+      {
+        "char": "ä",
+        "codepoint": "U+00E4",
+        "name": "LATIN SMALL LETTER A WITH DIAERESIS",
+        "count": 2
+      },
+      {
+        "char": "᷆",
+        "codepoint": "U+1DC6",
+        "name": "COMBINING MACRON-GRAVE",
+        "count": 2
+      },
+      {
+        "char": "Ɓ",
+        "codepoint": "U+0181",
+        "name": "LATIN CAPITAL LETTER B WITH HOOK",
+        "count": 2
+      },
+      {
+        "char": "Ô",
+        "codepoint": "U+00D4",
+        "name": "LATIN CAPITAL LETTER O WITH CIRCUMFLEX",
+        "count": 2
+      },
+      {
+        "char": "◌",
+        "codepoint": "U+25CC",
+        "name": "DOTTED CIRCLE",
+        "count": 1
+      },
+      {
+        "char": "Ə",
+        "codepoint": "U+018F",
+        "name": "LATIN CAPITAL LETTER SCHWA",
+        "count": 1
+      },
+      {
+        "char": "ḳ",
+        "codepoint": "U+1E33",
+        "name": "LATIN SMALL LETTER K WITH DOT BELOW",
+        "count": 1
+      },
+      {
+        "char": "ö",
+        "codepoint": "U+00F6",
+        "name": "LATIN SMALL LETTER O WITH DIAERESIS",
+        "count": 1
+      },
+      {
+        "char": "ƴ",
+        "codepoint": "U+01B4",
+        "name": "LATIN SMALL LETTER Y WITH HOOK",
+        "count": 1
+      },
+      {
+        "char": "̰",
+        "codepoint": "U+0330",
+        "name": "COMBINING TILDE BELOW",
+        "count": 1
+      },
+      {
+        "char": "ĝ",
+        "codepoint": "U+011D",
+        "name": "LATIN SMALL LETTER G WITH CIRCUMFLEX",
+        "count": 1
+      },
+      {
+        "char": "ǹ",
+        "codepoint": "U+01F9",
+        "name": "LATIN SMALL LETTER N WITH GRAVE",
+        "count": 1
+      },
+      {
+        "char": "Ě",
+        "codepoint": "U+011A",
+        "name": "LATIN CAPITAL LETTER E WITH CARON",
+        "count": 1
+      },
+      {
+        "char": "ŗ",
+        "codepoint": "U+0157",
+        "name": "LATIN SMALL LETTER R WITH CEDILLA",
+        "count": 1
+      },
+      {
+        "char": "–",
+        "codepoint": "U+2013",
+        "name": "EN DASH",
+        "count": 1
+      },
+      {
+        "char": "€",
+        "codepoint": "U+20AC",
+        "name": "EURO SIGN",
+        "count": 1
+      }
+    ]
+  },
+  "suspicious_char_samples": {
+    "greek_alpha": [
+      "Ngàfαncʉꞌ",
+      "Mɛ̀nntʉ̀n ǎ nkə mfâꞌ ntʉ̂m nkὰn nα",
+      "Njὰb",
+      "Mfǔ ntʉ mbὰ mfǔ nə̀nὰ bò kûꞌni nə̀ fɛd lα",
+      "Màd nə̀ fǎꞌ ju kə̀ nαntə̀",
+      "Lɛn nə̀ lòꞌ mbeꞌtə màd nə̀ fǎꞌ ju kə̀ nαntə̀ yi",
+      "Lɛn nə̀ lòꞌ mbeꞌtə màd nə̀ fǎꞌ ju kə̀ nαntə̀ yi",
+      "Ngòkɛd zə̀ ǎ nkə nkwag ngǎwʉd nkα̂g lǒꞌ nùm nkù mbὰ mbu lα",
+      "Mɛ̀nntʉ̌n zə̀ nkin bə̂ nùm i lα",
+      "Dʉꞌ bǒ nkə ndêꞌ bə̀nntʉ̌n tsə̀ nkîn bə̂ nǔm bo lα",
+      "Lα̂gŋwàꞌni",
+      "Shudnyὰm",
+      "Dʉ̌ꞌjuα",
+      "Nə̀lαn(ə)",
+      "Ngwα̌yid",
+      "Nyαmkə̀màꞌ",
+      "Làkunndα",
+      "Nə̀ fα",
+      "Kὰn",
+      "Nə̀sὰ",
+      "Ngʉanə̀sὰ",
+      "Nsὰ",
+      "Nkàꞌlα̂gmyàm",
+      "Mαŋwʉ",
+      "Ntαg(ə)"
+    ],
+    "dotted_circle": [
+      "Nə̀ ŋwàg◌"
+    ],
+    "euro_sign": [
+      "Debauche €"
+    ],
+    "en_dash": [
+      "Cheveux– blanc"
+    ]
+  },
+  "files_written": [
+    "outputs/corpus_clean_all.jsonl",
+    "outputs/corpus_clean_train.jsonl",
+    "outputs/corpus_clean_val.jsonl",
+    "outputs/corpus_clean_test.jsonl",
+    "outputs/pairs_train.jsonl",
+    "outputs/pairs_val.jsonl",
+    "outputs/pairs_test.jsonl",
+    "outputs/prep_report.json"
+  ]
+}

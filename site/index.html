@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Medumba Translator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>Medumba Translator</h1>
+      <p class="tag">RAG-assisted translator for Medumba and French.</p>
+      <div id="status" class="status">Server: checking...</div>
+      <div class="controls">
+        <select id="direction" aria-label="translation direction">
+          <option value="fr-md">French -> Medumba</option>
+          <option value="md-fr">Medumba -> French</option>
+        </select>
+        <input id="q" placeholder="Type a word or phrase..." autofocus>
+        <button id="search">Translate</button>
+        <label class="toggle">
+          <input id="use-llm" type="checkbox" checked>
+          Use LLM
+        </label>
+      </div>
+    </header>
+
+    <section id="results" class="results" aria-live="polite"></section>
+
+    <footer class="footer">
+      <small>Data source: Medumba dictionary (local JSON). Built by Medumba AI.</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

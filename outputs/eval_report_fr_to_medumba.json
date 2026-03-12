@@ -1,0 +1,236 @@
+{
+  "base_model": "google/byt5-small",
+  "adapter_dir": "c:\\Users\\yaweh\\OneDrive\\Documents\\Medumba AI\\outputs\\medumba_lora_byt5_smoke",
+  "test_file": "outputs\\pairs_test.jsonl",
+  "task_filter": "fr_to_medumba",
+  "rows_evaluated": 40,
+  "exact_match": 0.0,
+  "chrf": 9.20207781240698,
+  "samples": [
+    {
+      "id": "pair_000001",
+      "task": "fr_to_medumba",
+      "input": "Dessein",
+      "reference": "Və̀bu",
+      "prediction": "Nə̀ nə̀ nə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000003",
+      "task": "fr_to_medumba",
+      "input": "Liane",
+      "reference": "Lə̀",
+      "prediction": "Nə̀ nə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000005",
+      "task": "fr_to_medumba",
+      "input": "Declarer",
+      "reference": "Nə̀ cobe",
+      "prediction": "Nə̀ nə̀ nə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000007",
+      "task": "fr_to_medumba",
+      "input": "Salle dꞌurgence",
+      "reference": "Ndα̂nùbαhα",
+      "prediction": "Nə̀ nə̀ nə̀ mə",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000009",
+      "task": "fr_to_medumba",
+      "input": "Ombre",
+      "reference": "Nə̀caŋ̀",
+      "prediction": "Nə̀ nə̀ bə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000011",
+      "task": "fr_to_medumba",
+      "input": "Douter",
+      "reference": "Nə̀ mqgtə̌",
+      "prediction": "Nə̀ tə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000013",
+      "task": "fr_to_medumba",
+      "input": "Tortue",
+      "reference": "Tswəmα̂nk̀òꞌ",
+      "prediction": "Nə̀ tə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000015",
+      "task": "fr_to_medumba",
+      "input": "Impoli",
+      "reference": "Ngàlɛ̌dncù",
+      "prediction": "Nə̀ nə̀ mə",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000017",
+      "task": "fr_to_medumba",
+      "input": "Indulgence",
+      "reference": "Kôndɛ̀n",
+      "prediction": "Nə̀ nə̀ nə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000019",
+      "task": "fr_to_medumba",
+      "input": "Ecume",
+      "reference": "Nə̀ndʉ̀",
+      "prediction": "Nə̀ nə̀ mə",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000021",
+      "task": "fr_to_medumba",
+      "input": "Sanglier",
+      "reference": "Ngʉ̌nyαmcwɛd",
+      "prediction": "Nə̀ nə̀ nə̀ nə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000023",
+      "task": "fr_to_medumba",
+      "input": "Vêtir",
+      "reference": "Nə̀ kə̌dnzwə",
+      "prediction": "Nə̀ nə̀ tə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000025",
+      "task": "fr_to_medumba",
+      "input": "Point final",
+      "reference": "Tsinyoŋ ncʉꞌ",
+      "prediction": "Nə̀ nə̀ nə̀ nə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000027",
+      "task": "fr_to_medumba",
+      "input": "Malade",
+      "reference": "Ngàngòkɛd",
+      "prediction": "Nə̀ nə̀ nə̀ mə",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000029",
+      "task": "fr_to_medumba",
+      "input": "Nous (eux vous et moi)",
+      "reference": "Bὰgαbinαbo",
+      "prediction": "Nə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000031",
+      "task": "fr_to_medumba",
+      "input": "Poste̍rite̍",
+      "reference": "Nzwìd",
+      "prediction": "Nə̀ tə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000033",
+      "task": "fr_to_medumba",
+      "input": "Fils aine",
+      "reference": "Ncʉàmbwə̀",
+      "prediction": "Nə̀ nə̀ nə̀ nə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000035",
+      "task": "fr_to_medumba",
+      "input": "Pasteur",
+      "reference": "Ngàbəbmbwə",
+      "prediction": "Nə̀ nə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000037",
+      "task": "fr_to_medumba",
+      "input": "Abattre",
+      "reference": "Nə̀ faŋə",
+      "prediction": "Nə̀ tə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000039",
+      "task": "fr_to_medumba",
+      "input": "Glouton",
+      "reference": "Njʉkə̀ywɛd",
+      "prediction": "Nə̀ nə̀ nə̀ tə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000041",
+      "task": "fr_to_medumba",
+      "input": "jꞌai commis une erreur",
+      "reference": "mə ghʉ̌ tàꞌ mfὰntə̀",
+      "prediction": "Nə̀ nə̀ nə̀ nə̀ mə̀ nə̀",
+      "exact_match": 0,
+      "source": "expressions"
+    },
+    {
+      "id": "pair_000043",
+      "task": "fr_to_medumba",
+      "input": "Sol",
+      "reference": "Nsi",
+      "prediction": "Nə̀ nə̀ bə",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000045",
+      "task": "fr_to_medumba",
+      "input": "jꞌai peronnellement vu",
+      "reference": "kuàꞌ mə̌ bə̂n ndôꞌ miὰg",
+      "prediction": "Nə̀ nə̀ nə̀ nə̀ mə",
+      "exact_match": 0,
+      "source": "expressions"
+    },
+    {
+      "id": "pair_000047",
+      "task": "fr_to_medumba",
+      "input": "Renoncer",
+      "reference": "Nə̀gha",
+      "prediction": "Nə̀ nə̀ mə",
+      "exact_match": 0,
+      "source": "dictionary"
+    },
+    {
+      "id": "pair_000049",
+      "task": "fr_to_medumba",
+      "input": "Forcer",
+      "reference": "Nə̀ sǒ ngʉꞌ",
+      "prediction": "Nə̀ nə̀ bə̀",
+      "exact_match": 0,
+      "source": "dictionary"
+    }
+  ]
+}

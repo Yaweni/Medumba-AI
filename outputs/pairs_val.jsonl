@@ -1,0 +1,886 @@
+{"id": "pair_000001", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Venir", "output": "Nə̀ səꞌə", "source": "dictionary"}
+{"id": "pair_000002", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ səꞌə", "output": "Venir", "source": "dictionary"}
+{"id": "pair_000003", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Epouser", "output": "Nə̀ nandα", "source": "dictionary"}
+{"id": "pair_000004", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nandα", "output": "Epouser", "source": "dictionary"}
+{"id": "pair_000005", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pharmacien", "output": "Nswɛnmfu", "source": "dictionary"}
+{"id": "pair_000006", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nswɛnmfu", "output": "Pharmacien", "source": "dictionary"}
+{"id": "pair_000007", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Côte̍", "output": "Mbaŋə", "source": "dictionary"}
+{"id": "pair_000008", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbaŋə", "output": "Côte̍", "source": "dictionary"}
+{"id": "pair_000009", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tas", "output": "Tswəꞌtə", "source": "dictionary"}
+{"id": "pair_000010", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tswəꞌtə", "output": "Tas", "source": "dictionary"}
+{"id": "pair_000011", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Don", "output": "Jûbwɔ̌ntʉ / fαbwɔ̀", "source": "dictionary"}
+{"id": "pair_000012", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Jûbwɔ̌ntʉ / fαbwɔ̀", "output": "Don", "source": "dictionary"}
+{"id": "pair_000013", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Clairvoyant", "output": "Nzə̂nù", "source": "dictionary"}
+{"id": "pair_000014", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nzə̂nù", "output": "Clairvoyant", "source": "dictionary"}
+{"id": "pair_000015", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cher", "output": "Tànjòŋ", "source": "dictionary"}
+{"id": "pair_000016", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tànjòŋ", "output": "Cher", "source": "dictionary"}
+{"id": "pair_000017", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sauter", "output": "Nə̀ ywɛlə", "source": "dictionary"}
+{"id": "pair_000018", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ywɛlə", "output": "Sauter", "source": "dictionary"}
+{"id": "pair_000019", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Successeur", "output": "Njʉndα", "source": "dictionary"}
+{"id": "pair_000020", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njʉndα", "output": "Successeur", "source": "dictionary"}
+{"id": "pair_000021", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mal (parler de qqn)", "output": "Nə̀ nywìlə", "source": "dictionary"}
+{"id": "pair_000022", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nywìlə", "output": "Mal (parler de qqn)", "source": "dictionary"}
+{"id": "pair_000023", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Voir", "output": "Nə̀ yənə", "source": "dictionary"}
+{"id": "pair_000024", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ yənə", "output": "Voir", "source": "dictionary"}
+{"id": "pair_000025", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Transpercer", "output": "Nə̀ tam ntogə", "source": "dictionary"}
+{"id": "pair_000026", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tam ntogə", "output": "Transpercer", "source": "dictionary"}
+{"id": "pair_000027", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Re̍jouissance", "output": "Tsiàŋtə̀", "source": "dictionary"}
+{"id": "pair_000028", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tsiàŋtə̀", "output": "Re̍jouissance", "source": "dictionary"}
+{"id": "pair_000029", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "jꞌai mal au piel", "output": "kǔ αm cwɛ̌d nja", "source": "expressions"}
+{"id": "pair_000030", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "kǔ αm cwɛ̌d nja", "output": "jꞌai mal au piel", "source": "expressions"}
+{"id": "pair_000031", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Volant", "output": "Sitia", "source": "dictionary"}
+{"id": "pair_000032", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Sitia", "output": "Volant", "source": "dictionary"}
+{"id": "pair_000033", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Profit", "output": "Bìn", "source": "dictionary"}
+{"id": "pair_000034", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bìn", "output": "Profit", "source": "dictionary"}
+{"id": "pair_000035", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Forcer", "output": "Nə̀ ncʉb tʉ̀n", "source": "dictionary"}
+{"id": "pair_000036", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ncʉb tʉ̀n", "output": "Forcer", "source": "dictionary"}
+{"id": "pair_000037", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bar", "output": "ndα̂ndùꞌ", "source": "dictionary"}
+{"id": "pair_000038", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "ndα̂ndùꞌ", "output": "Bar", "source": "dictionary"}
+{"id": "pair_000039", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dos", "output": "Njàmmfɛ̀n", "source": "dictionary"}
+{"id": "pair_000040", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njàmmfɛ̀n", "output": "Dos", "source": "dictionary"}
+{"id": "pair_000041", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Abattu", "output": "Nèyob", "source": "dictionary"}
+{"id": "pair_000042", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nèyob", "output": "Abattu", "source": "dictionary"}
+{"id": "pair_000043", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Court", "output": "Kàm", "source": "dictionary"}
+{"id": "pair_000044", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kàm", "output": "Court", "source": "dictionary"}
+{"id": "pair_000045", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Crepuscule", "output": "Ndʉmfědnjʉ", "source": "dictionary"}
+{"id": "pair_000046", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndʉmfědnjʉ", "output": "Crepuscule", "source": "dictionary"}
+{"id": "pair_000047", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Se reposer", "output": "Nə̀ fitə", "source": "dictionary"}
+{"id": "pair_000048", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ fitə", "output": "Se reposer", "source": "dictionary"}
+{"id": "pair_000049", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Jꞌaime mieux aller en prison que de mourir de faim", "output": "Mə kɔ̌ nə co ncʉα̂ nə kwʉ nzikuꞌu", "source": "expressions"}
+{"id": "pair_000050", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə kɔ̌ nə co ncʉα̂ nə kwʉ nzikuꞌu", "output": "Jꞌaime mieux aller en prison que de mourir de faim", "source": "expressions"}
+{"id": "pair_000051", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Envie", "output": "Ghə̀ꞌtə̀", "source": "dictionary"}
+{"id": "pair_000052", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ghə̀ꞌtə̀", "output": "Envie", "source": "dictionary"}
+{"id": "pair_000053", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Flou", "output": "Ntǎdntad", "source": "dictionary"}
+{"id": "pair_000054", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntǎdntad", "output": "Flou", "source": "dictionary"}
+{"id": "pair_000055", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Etouffer", "output": "Nə̀ biagə", "source": "dictionary"}
+{"id": "pair_000056", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ biagə", "output": "Etouffer", "source": "dictionary"}
+{"id": "pair_000057", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sud au", "output": "Mα ntɛ̀n", "source": "dictionary"}
+{"id": "pair_000058", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mα ntɛ̀n", "output": "Sud au", "source": "dictionary"}
+{"id": "pair_000059", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dans", "output": "Tɔ̀", "source": "dictionary"}
+{"id": "pair_000060", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tɔ̀", "output": "Dans", "source": "dictionary"}
+{"id": "pair_000061", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Révéler", "output": "Nə̀làꞌtə̌", "source": "dictionary"}
+{"id": "pair_000062", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀làꞌtə̌", "output": "Révéler", "source": "dictionary"}
+{"id": "pair_000063", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sentiment", "output": "Ntsə", "source": "dictionary"}
+{"id": "pair_000064", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntsə", "output": "Sentiment", "source": "dictionary"}
+{"id": "pair_000065", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Lieu", "output": "Dʉꞌ", "source": "dictionary"}
+{"id": "pair_000066", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Dʉꞌ", "output": "Lieu", "source": "dictionary"}
+{"id": "pair_000067", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Vieillesse", "output": "Ywɛ̀n", "source": "dictionary"}
+{"id": "pair_000068", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ywɛ̀n", "output": "Vieillesse", "source": "dictionary"}
+{"id": "pair_000069", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Jꞌai une note au-desous de la moyenne", "output": "sαm fὰꞌ kə̂ꞌ nyìꞌtə̀ ts̀e mbὰ ndὰꞌ nə̀tɛ̀d bwə k", "source": "expressions"}
+{"id": "pair_000070", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "sαm fὰꞌ kə̂ꞌ nyìꞌtə̀ ts̀e mbὰ ndὰꞌ nə̀tɛ̀d bwə k", "output": "Jꞌai une note au-desous de la moyenne", "source": "expressions"}
+{"id": "pair_000071", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Astuce", "output": "Nkʉ̂nkʉ", "source": "dictionary"}
+{"id": "pair_000072", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkʉ̂nkʉ", "output": "Astuce", "source": "dictionary"}
+{"id": "pair_000073", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Démence", "output": "Zwiaŋtə̀", "source": "dictionary"}
+{"id": "pair_000074", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Zwiaŋtə̀", "output": "Démence", "source": "dictionary"}
+{"id": "pair_000075", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Feuille (de papier)", "output": "Fə", "source": "dictionary"}
+{"id": "pair_000076", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fə", "output": "Feuille (de papier)", "source": "dictionary"}
+{"id": "pair_000077", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "voilà lꞌhomme avait qui on etait", "output": "cʉ̌ mαndùm bα̂gὰbô fə̀ mbə dîn", "source": "expressions"}
+{"id": "pair_000078", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "cʉ̌ mαndùm bα̂gὰbô fə̀ mbə dîn", "output": "voilà lꞌhomme avait qui on etait", "source": "expressions"}
+{"id": "pair_000079", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mâchoire", "output": "Ntαg(ə)", "source": "dictionary"}
+{"id": "pair_000080", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntαg(ə)", "output": "Mâchoire", "source": "dictionary"}
+{"id": "pair_000081", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Complément", "output": "Mìb", "source": "dictionary"}
+{"id": "pair_000082", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mìb", "output": "Complément", "source": "dictionary"}
+{"id": "pair_000083", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Audacieux", "output": "Kutumɛ̀n", "source": "dictionary"}
+{"id": "pair_000084", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kutumɛ̀n", "output": "Audacieux", "source": "dictionary"}
+{"id": "pair_000085", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dépêche", "output": "Nkʉ̌nndə", "source": "dictionary"}
+{"id": "pair_000086", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkʉ̌nndə", "output": "Dépêche", "source": "dictionary"}
+{"id": "pair_000087", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Frais", "output": "Fîfi", "source": "dictionary"}
+{"id": "pair_000088", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fîfi", "output": "Frais", "source": "dictionary"}
+{"id": "pair_000089", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sucre", "output": "Dʉ̀mtə̀", "source": "dictionary"}
+{"id": "pair_000090", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Dʉ̀mtə̀", "output": "Sucre", "source": "dictionary"}
+{"id": "pair_000091", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Juste (le)", "output": "Mɛ̀nnənʉnə", "source": "dictionary"}
+{"id": "pair_000092", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mɛ̀nnənʉnə", "output": "Juste (le)", "source": "dictionary"}
+{"id": "pair_000093", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Entêtement", "output": "Tâtu", "source": "dictionary"}
+{"id": "pair_000094", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tâtu", "output": "Entêtement", "source": "dictionary"}
+{"id": "pair_000095", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Premier fils", "output": "Mbwə̀mɛn", "source": "dictionary"}
+{"id": "pair_000096", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbwə̀mɛn", "output": "Premier fils", "source": "dictionary"}
+{"id": "pair_000097", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mètre", "output": "Maꞌ", "source": "dictionary"}
+{"id": "pair_000098", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Maꞌ", "output": "Mètre", "source": "dictionary"}
+{"id": "pair_000099", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Territoire", "output": "Ntʉ̂mngɔ̀", "source": "dictionary"}
+{"id": "pair_000100", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntʉ̂mngɔ̀", "output": "Territoire", "source": "dictionary"}
+{"id": "pair_000101", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Vendeur", "output": "Ngàswɛ̀n", "source": "dictionary"}
+{"id": "pair_000102", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàswɛ̀n", "output": "Vendeur", "source": "dictionary"}
+{"id": "pair_000103", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "A lꞌest", "output": "Bα̌g ntûmnyàm", "source": "dictionary"}
+{"id": "pair_000104", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bα̌g ntûmnyàm", "output": "A lꞌest", "source": "dictionary"}
+{"id": "pair_000105", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Salle des nouveaux-nés", "output": "Ndα̂mαbwə", "source": "dictionary"}
+{"id": "pair_000106", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂mαbwə", "output": "Salle des nouveaux-nés", "source": "dictionary"}
+{"id": "pair_000107", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Teint noir", "output": "Nə̀sɛnə", "source": "dictionary"}
+{"id": "pair_000108", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀sɛnə", "output": "Teint noir", "source": "dictionary"}
+{"id": "pair_000109", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Terre", "output": "Caꞌa", "source": "dictionary"}
+{"id": "pair_000110", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Caꞌa", "output": "Terre", "source": "dictionary"}
+{"id": "pair_000111", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Midi", "output": "Njα̌gnyàm", "source": "dictionary"}
+{"id": "pair_000112", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njα̌gnyàm", "output": "Midi", "source": "dictionary"}
+{"id": "pair_000113", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Lait", "output": "Bʉn", "source": "dictionary"}
+{"id": "pair_000114", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bʉn", "output": "Lait", "source": "dictionary"}
+{"id": "pair_000115", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Confesser", "output": "Nə̀ mǎꞌ njom", "source": "dictionary"}
+{"id": "pair_000116", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ mǎꞌ njom", "output": "Confesser", "source": "dictionary"}
+{"id": "pair_000117", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Patrie", "output": "Ngɔ̌ bὰmmɛ̀n", "source": "dictionary"}
+{"id": "pair_000118", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngɔ̌ bὰmmɛ̀n", "output": "Patrie", "source": "dictionary"}
+{"id": "pair_000119", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Communiquer", "output": "Nə̀ tswǐ nkʉ̀n", "source": "dictionary"}
+{"id": "pair_000120", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tswǐ nkʉ̀n", "output": "Communiquer", "source": "dictionary"}
+{"id": "pair_000121", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Source", "output": "Lα̂gbwə", "source": "dictionary"}
+{"id": "pair_000122", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Lα̂gbwə", "output": "Source", "source": "dictionary"}
+{"id": "pair_000123", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pure̍e", "output": "Cǎŋntsə", "source": "dictionary"}
+{"id": "pair_000124", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Cǎŋntsə", "output": "Pure̍e", "source": "dictionary"}
+{"id": "pair_000125", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "je lui ai dit que ce nꞌest pas bon", "output": "Mə côb yî mbə à kə̂ bwɔ̀", "source": "expressions"}
+{"id": "pair_000126", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə côb yî mbə à kə̂ bwɔ̀", "output": "je lui ai dit que ce nꞌest pas bon", "source": "expressions"}
+{"id": "pair_000127", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "je suis parti à 6 heure s", "output": "Mə̀ lô lâꞌ α̂ nyàm ntogə", "source": "expressions"}
+{"id": "pair_000128", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə̀ lô lâꞌ α̂ nyàm ntogə", "output": "je suis parti à 6 heure s", "source": "expressions"}
+{"id": "pair_000129", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Motif", "output": "Tûnù", "source": "dictionary"}
+{"id": "pair_000130", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tûnù", "output": "Motif", "source": "dictionary"}
+{"id": "pair_000131", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sculpter", "output": "Nə̀ vɛnə", "source": "dictionary"}
+{"id": "pair_000132", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ vɛnə", "output": "Sculpter", "source": "dictionary"}
+{"id": "pair_000133", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Flutiste", "output": "Ntɔ̂ndɔ", "source": "dictionary"}
+{"id": "pair_000134", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntɔ̂ndɔ", "output": "Flutiste", "source": "dictionary"}
+{"id": "pair_000135", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Ruse", "output": "Mfʉ", "source": "dictionary"}
+{"id": "pair_000136", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mfʉ", "output": "Ruse", "source": "dictionary"}
+{"id": "pair_000137", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sauter", "output": "Nə̀ coꞌkə̀càd", "source": "dictionary"}
+{"id": "pair_000138", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ coꞌkə̀càd", "output": "Sauter", "source": "dictionary"}
+{"id": "pair_000139", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Regretter", "output": "Ntʉ̂ mɛ̀n nə̀ saꞌi", "source": "dictionary"}
+{"id": "pair_000140", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntʉ̂ mɛ̀n nə̀ saꞌi", "output": "Regretter", "source": "dictionary"}
+{"id": "pair_000141", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Quel", "output": "Zîlə", "source": "dictionary"}
+{"id": "pair_000142", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Zîlə", "output": "Quel", "source": "dictionary"}
+{"id": "pair_000143", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "je vais là-bas", "output": "mə̀ nɛ̂n α̂ nsə̌ndî", "source": "expressions"}
+{"id": "pair_000144", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "mə̀ nɛ̂n α̂ nsə̌ndî", "output": "je vais là-bas", "source": "expressions"}
+{"id": "pair_000145", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Contour", "output": "Kàŋ", "source": "dictionary"}
+{"id": "pair_000146", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kàŋ", "output": "Contour", "source": "dictionary"}
+{"id": "pair_000147", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Morceau", "output": "Kàm", "source": "dictionary"}
+{"id": "pair_000148", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kàm", "output": "Morceau", "source": "dictionary"}
+{"id": "pair_000149", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Très", "output": "Nəshù", "source": "dictionary"}
+{"id": "pair_000150", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nəshù", "output": "Très", "source": "dictionary"}
+{"id": "pair_000151", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Remerciement", "output": "Nə̀ diǎg fu", "source": "dictionary"}
+{"id": "pair_000152", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ diǎg fu", "output": "Remerciement", "source": "dictionary"}
+{"id": "pair_000153", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Queue de parade", "output": "Swadiaŋə", "source": "dictionary"}
+{"id": "pair_000154", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Swadiaŋə", "output": "Queue de parade", "source": "dictionary"}
+{"id": "pair_000155", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bouteille", "output": "Ncaŋ", "source": "dictionary"}
+{"id": "pair_000156", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncaŋ", "output": "Bouteille", "source": "dictionary"}
+{"id": "pair_000157", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Voie", "output": "Nzə̀", "source": "dictionary"}
+{"id": "pair_000158", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nzə̀", "output": "Voie", "source": "dictionary"}
+{"id": "pair_000159", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Faiblir", "output": "Nə̀ bolə", "source": "dictionary"}
+{"id": "pair_000160", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bolə", "output": "Faiblir", "source": "dictionary"}
+{"id": "pair_000161", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "De̍signe(auccesseur)", "output": "Nə̀ tag ndα", "source": "dictionary"}
+{"id": "pair_000162", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tag ndα", "output": "De̍signe(auccesseur)", "source": "dictionary"}
+{"id": "pair_000163", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dément", "output": "Ngàzwiaŋtə̀", "source": "dictionary"}
+{"id": "pair_000164", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàzwiaŋtə̀", "output": "Dément", "source": "dictionary"}
+{"id": "pair_000165", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Remunérer", "output": "Nə̀ tʉ nkab fàꞌ", "source": "dictionary"}
+{"id": "pair_000166", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tʉ nkab fàꞌ", "output": "Remunérer", "source": "dictionary"}
+{"id": "pair_000167", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Calomnier", "output": "Nə̀ tana", "source": "dictionary"}
+{"id": "pair_000168", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tana", "output": "Calomnier", "source": "dictionary"}
+{"id": "pair_000169", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Epine de folio de raphia", "output": "Bèfěca", "source": "dictionary"}
+{"id": "pair_000170", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bèfěca", "output": "Epine de folio de raphia", "source": "dictionary"}
+{"id": "pair_000171", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Raphia vigner le", "output": "Nə̀ diaŋ nkʉα", "source": "dictionary"}
+{"id": "pair_000172", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ diaŋ nkʉα", "output": "Raphia vigner le", "source": "dictionary"}
+{"id": "pair_000173", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Culot", "output": "Kutu", "source": "dictionary"}
+{"id": "pair_000174", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kutu", "output": "Culot", "source": "dictionary"}
+{"id": "pair_000175", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rectifier", "output": "Nə̀ tsiagtə", "source": "dictionary"}
+{"id": "pair_000176", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tsiagtə", "output": "Rectifier", "source": "dictionary"}
+{"id": "pair_000177", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tumulte", "output": "Ncùꞌtə̀", "source": "dictionary"}
+{"id": "pair_000178", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncùꞌtə̀", "output": "Tumulte", "source": "dictionary"}
+{"id": "pair_000179", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Viande séchée", "output": "Yâgmbὰb", "source": "dictionary"}
+{"id": "pair_000180", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Yâgmbὰb", "output": "Viande séchée", "source": "dictionary"}
+{"id": "pair_000181", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Examiner", "output": "Nə̀ caꞌa", "source": "dictionary"}
+{"id": "pair_000182", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ caꞌa", "output": "Examiner", "source": "dictionary"}
+{"id": "pair_000183", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Crapaud", "output": "Mətùꞌ", "source": "dictionary"}
+{"id": "pair_000184", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mətùꞌ", "output": "Crapaud", "source": "dictionary"}
+{"id": "pair_000185", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Persévérance", "output": "Fɛ̌nntʉ", "source": "dictionary"}
+{"id": "pair_000186", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fɛ̌nntʉ", "output": "Persévérance", "source": "dictionary"}
+{"id": "pair_000187", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Forcer", "output": "Nə̀ sǒ nə̀ta", "source": "dictionary"}
+{"id": "pair_000188", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sǒ nə̀ta", "output": "Forcer", "source": "dictionary"}
+{"id": "pair_000189", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tromper", "output": "Nə̀ tadtə", "source": "dictionary"}
+{"id": "pair_000190", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tadtə", "output": "Tromper", "source": "dictionary"}
+{"id": "pair_000191", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Index (doigt)", "output": "Ndâdsogə", "source": "dictionary"}
+{"id": "pair_000192", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndâdsogə", "output": "Index (doigt)", "source": "dictionary"}
+{"id": "pair_000193", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "je vais passer la fête au village", "output": "Mə̀ ὰ nɛ̌n jʉ jʉα̂ α̂ lαꞌ", "source": "expressions"}
+{"id": "pair_000194", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə̀ ὰ nɛ̌n jʉ jʉα̂ α̂ lαꞌ", "output": "je vais passer la fête au village", "source": "expressions"}
+{"id": "pair_000195", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Enseigner", "output": "Nə̀ tswitə̌", "source": "dictionary"}
+{"id": "pair_000196", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tswitə̌", "output": "Enseigner", "source": "dictionary"}
+{"id": "pair_000197", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tordre", "output": "Nə̀ ŋamə", "source": "dictionary"}
+{"id": "pair_000198", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ŋamə", "output": "Tordre", "source": "dictionary"}
+{"id": "pair_000199", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Animer", "output": "Nə̀ ŋwatə", "source": "dictionary"}
+{"id": "pair_000200", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ŋwatə", "output": "Animer", "source": "dictionary"}
+{"id": "pair_000201", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Flûte", "output": "Ndɔ", "source": "dictionary"}
+{"id": "pair_000202", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndɔ", "output": "Flûte", "source": "dictionary"}
+{"id": "pair_000203", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Intension de (avoir)", "output": "Nə̀ bǎb nə̀", "source": "dictionary"}
+{"id": "pair_000204", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bǎb nə̀", "output": "Intension de (avoir)", "source": "dictionary"}
+{"id": "pair_000205", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Egal (âge, titre)", "output": "Nguα", "source": "dictionary"}
+{"id": "pair_000206", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nguα", "output": "Egal (âge, titre)", "source": "dictionary"}
+{"id": "pair_000207", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "blé̍", "output": "Nsa", "source": "dictionary"}
+{"id": "pair_000208", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nsa", "output": "blé̍", "source": "dictionary"}
+{"id": "pair_000209", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tribunal", "output": "Ndα̂ncà", "source": "dictionary"}
+{"id": "pair_000210", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂ncà", "output": "Tribunal", "source": "dictionary"}
+{"id": "pair_000211", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Flot (vague)", "output": "Tuꞌntsə", "source": "dictionary"}
+{"id": "pair_000212", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tuꞌntsə", "output": "Flot (vague)", "source": "dictionary"}
+{"id": "pair_000213", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Debattre", "output": "Nə̀ siaŋtə nù", "source": "dictionary"}
+{"id": "pair_000214", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ siaŋtə nù", "output": "Debattre", "source": "dictionary"}
+{"id": "pair_000215", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rouler qqch", "output": "Nə̀ bwoŋə", "source": "dictionary"}
+{"id": "pair_000216", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bwoŋə", "output": "Rouler qqch", "source": "dictionary"}
+{"id": "pair_000217", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Avocat", "output": "Mbàꞌ kamə", "source": "dictionary"}
+{"id": "pair_000218", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbàꞌ kamə", "output": "Avocat", "source": "dictionary"}
+{"id": "pair_000219", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Affùter(tailler)", "output": "Nə̀ bètə̌", "source": "dictionary"}
+{"id": "pair_000220", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bètə̌", "output": "Affùter(tailler)", "source": "dictionary"}
+{"id": "pair_000221", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Ma mère vient dꞌarriver.", "output": "Mə̂ α yǒg ne sə̂ꞌ ə", "source": "expressions"}
+{"id": "pair_000222", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə̂ α yǒg ne sə̂ꞌ ə", "output": "Ma mère vient dꞌarriver.", "source": "expressions"}
+{"id": "pair_000223", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chef de service", "output": "Tα̂fàꞌ/mα̂fàꞌ", "source": "dictionary"}
+{"id": "pair_000224", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tα̂fàꞌ/mα̂fàꞌ", "output": "Chef de service", "source": "dictionary"}
+{"id": "pair_000225", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Veiller", "output": "Nə̀ zi mù", "source": "dictionary"}
+{"id": "pair_000226", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ zi mù", "output": "Veiller", "source": "dictionary"}
+{"id": "pair_000227", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Douleur", "output": "Nə̀ya", "source": "dictionary"}
+{"id": "pair_000228", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ya", "output": "Douleur", "source": "dictionary"}
+{"id": "pair_000229", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Palabreur", "output": "Ngàsaꞌncà", "source": "dictionary"}
+{"id": "pair_000230", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàsaꞌncà", "output": "Palabreur", "source": "dictionary"}
+{"id": "pair_000231", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Urgence salle des", "output": "Ndαnùbαhα", "source": "dictionary"}
+{"id": "pair_000232", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndαnùbαhα", "output": "Urgence salle des", "source": "dictionary"}
+{"id": "pair_000233", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Oreiller", "output": "Kʉ̌ꞌkunə", "source": "dictionary"}
+{"id": "pair_000234", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kʉ̌ꞌkunə", "output": "Oreiller", "source": "dictionary"}
+{"id": "pair_000235", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Essayer", "output": "Nə̀ kə̀mtə̌", "source": "dictionary"}
+{"id": "pair_000236", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kə̀mtə̌", "output": "Essayer", "source": "dictionary"}
+{"id": "pair_000237", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Gai", "output": "Nə̀satə", "source": "dictionary"}
+{"id": "pair_000238", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀satə", "output": "Gai", "source": "dictionary"}
+{"id": "pair_000239", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Raser", "output": "Nə̀ komə", "source": "dictionary"}
+{"id": "pair_000240", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ komə", "output": "Raser", "source": "dictionary"}
+{"id": "pair_000241", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Acheter", "output": "Nə̀ june", "source": "dictionary"}
+{"id": "pair_000242", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ june", "output": "Acheter", "source": "dictionary"}
+{"id": "pair_000243", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Me̍decin", "output": "Ndɛ̀nghòn", "source": "dictionary"}
+{"id": "pair_000244", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndɛ̀nghòn", "output": "Me̍decin", "source": "dictionary"}
+{"id": "pair_000245", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Veiller", "output": "Nə̀ mǔ", "source": "dictionary"}
+{"id": "pair_000246", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ mǔ", "output": "Veiller", "source": "dictionary"}
+{"id": "pair_000247", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Éclairer", "output": "Nə̀ kèꞌe", "source": "dictionary"}
+{"id": "pair_000248", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kèꞌe", "output": "Éclairer", "source": "dictionary"}
+{"id": "pair_000249", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Completer", "output": "Nə̀ mìbe", "source": "dictionary"}
+{"id": "pair_000250", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ mìbe", "output": "Completer", "source": "dictionary"}
+{"id": "pair_000251", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Droite (à)", "output": "Bûzwim", "source": "dictionary"}
+{"id": "pair_000252", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bûzwim", "output": "Droite (à)", "source": "dictionary"}
+{"id": "pair_000253", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Plantain", "output": "Kə̀lɔntʉ̀n", "source": "dictionary"}
+{"id": "pair_000254", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kə̀lɔntʉ̀n", "output": "Plantain", "source": "dictionary"}
+{"id": "pair_000255", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Prix", "output": "Ndàꞌ", "source": "dictionary"}
+{"id": "pair_000256", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndàꞌ", "output": "Prix", "source": "dictionary"}
+{"id": "pair_000257", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "cꞌest moi qui lui ai donne̍ une situation", "output": "mə̀bɛ̂ ndiα̂g nzə̀yi", "source": "expressions"}
+{"id": "pair_000258", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "mə̀bɛ̂ ndiα̂g nzə̀yi", "output": "cꞌest moi qui lui ai donne̍ une situation", "source": "expressions"}
+{"id": "pair_000259", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "De̍sirer", "output": "Nə̀ kɔ̌", "source": "dictionary"}
+{"id": "pair_000260", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kɔ̌", "output": "De̍sirer", "source": "dictionary"}
+{"id": "pair_000261", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Objet", "output": "Ju", "source": "dictionary"}
+{"id": "pair_000262", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ju", "output": "Objet", "source": "dictionary"}
+{"id": "pair_000263", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fille", "output": "Ngòn", "source": "dictionary"}
+{"id": "pair_000264", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngòn", "output": "Fille", "source": "dictionary"}
+{"id": "pair_000265", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dépêcher", "output": "Nə̀ nαntə", "source": "dictionary"}
+{"id": "pair_000266", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nαntə", "output": "Dépêcher", "source": "dictionary"}
+{"id": "pair_000267", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Exagérer", "output": "Nə̀ yaꞌnkaꞌ", "source": "dictionary"}
+{"id": "pair_000268", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ yaꞌnkaꞌ", "output": "Exagérer", "source": "dictionary"}
+{"id": "pair_000269", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cuir chevelu", "output": "Ngùbtu", "source": "dictionary"}
+{"id": "pair_000270", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngùbtu", "output": "Cuir chevelu", "source": "dictionary"}
+{"id": "pair_000271", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Flutiste", "output": "Ngàtɔndɔ", "source": "dictionary"}
+{"id": "pair_000272", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàtɔndɔ", "output": "Flutiste", "source": "dictionary"}
+{"id": "pair_000273", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Lier", "output": "Nə̀ làlə", "source": "dictionary"}
+{"id": "pair_000274", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ làlə", "output": "Lier", "source": "dictionary"}
+{"id": "pair_000275", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Colonne verte̍brale", "output": "Kǎꞌ mvɛ̀n", "source": "dictionary"}
+{"id": "pair_000276", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kǎꞌ mvɛ̀n", "output": "Colonne verte̍brale", "source": "dictionary"}
+{"id": "pair_000277", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Champ (de raphia)", "output": "kǒbnkʉα", "source": "dictionary"}
+{"id": "pair_000278", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "kǒbnkʉα", "output": "Champ (de raphia)", "source": "dictionary"}
+{"id": "pair_000279", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Partie", "output": "Bàg", "source": "dictionary"}
+{"id": "pair_000280", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bàg", "output": "Partie", "source": "dictionary"}
+{"id": "pair_000281", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Raide", "output": "Saŋntâ", "source": "dictionary"}
+{"id": "pair_000282", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Saŋntâ", "output": "Raide", "source": "dictionary"}
+{"id": "pair_000283", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Taille hanche", "output": "Ntaŋkob", "source": "dictionary"}
+{"id": "pair_000284", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntaŋkob", "output": "Taille hanche", "source": "dictionary"}
+{"id": "pair_000285", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Xénophyle", "output": "Ngàkɔ̌ghʉ̀n", "source": "dictionary"}
+{"id": "pair_000286", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàkɔ̌ghʉ̀n", "output": "Xénophyle", "source": "dictionary"}
+{"id": "pair_000287", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sourire", "output": "Nə̀ nyǔꞌzwì", "source": "dictionary"}
+{"id": "pair_000288", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nyǔꞌzwì", "output": "Sourire", "source": "dictionary"}
+{"id": "pair_000289", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Compliment", "output": "Lα̌bncù", "source": "dictionary"}
+{"id": "pair_000290", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Lα̌bncù", "output": "Compliment", "source": "dictionary"}
+{"id": "pair_000291", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Corde", "output": "Mvɛ̀d", "source": "dictionary"}
+{"id": "pair_000292", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mvɛ̀d", "output": "Corde", "source": "dictionary"}
+{"id": "pair_000293", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Porter (au dos)", "output": "Nə̀ bǎd mvɛ̀n", "source": "dictionary"}
+{"id": "pair_000294", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bǎd mvɛ̀n", "output": "Porter (au dos)", "source": "dictionary"}
+{"id": "pair_000295", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Astrologue", "output": "ngàlɛ̌nnsa", "source": "dictionary"}
+{"id": "pair_000296", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "ngàlɛ̌nnsa", "output": "Astrologue", "source": "dictionary"}
+{"id": "pair_000297", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Buveur", "output": "Ngànu", "source": "dictionary"}
+{"id": "pair_000298", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngànu", "output": "Buveur", "source": "dictionary"}
+{"id": "pair_000299", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fils", "output": "Mɛ̀nnshùm", "source": "dictionary"}
+{"id": "pair_000300", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mɛ̀nnshùm", "output": "Fils", "source": "dictionary"}
+{"id": "pair_000301", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Termite", "output": "Ngoꞌo", "source": "dictionary"}
+{"id": "pair_000302", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngoꞌo", "output": "Termite", "source": "dictionary"}
+{"id": "pair_000303", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Universel", "output": "Njʉfa", "source": "dictionary"}
+{"id": "pair_000304", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njʉfa", "output": "Universel", "source": "dictionary"}
+{"id": "pair_000305", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Monde", "output": "Njʉ", "source": "dictionary"}
+{"id": "pair_000306", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njʉ", "output": "Monde", "source": "dictionary"}
+{"id": "pair_000307", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dent", "output": "Sɔ̀", "source": "dictionary"}
+{"id": "pair_000308", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Sɔ̀", "output": "Dent", "source": "dictionary"}
+{"id": "pair_000309", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Etagère", "output": "Nkoꞌ", "source": "dictionary"}
+{"id": "pair_000310", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkoꞌ", "output": "Etagère", "source": "dictionary"}
+{"id": "pair_000311", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "bête", "output": "cən", "source": "dictionary"}
+{"id": "pair_000312", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "cən", "output": "bête", "source": "dictionary"}
+{"id": "pair_000313", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Vide", "output": "Ghəlaŋə", "source": "dictionary"}
+{"id": "pair_000314", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ghəlaŋə", "output": "Vide", "source": "dictionary"}
+{"id": "pair_000315", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rame paplers", "output": "Buꞌmfə", "source": "dictionary"}
+{"id": "pair_000316", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Buꞌmfə", "output": "Rame paplers", "source": "dictionary"}
+{"id": "pair_000317", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Maternite̍", "output": "Ndα̂ mαbwə", "source": "dictionary"}
+{"id": "pair_000318", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂ mαbwə", "output": "Maternite̍", "source": "dictionary"}
+{"id": "pair_000319", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Maison (de̍portation", "output": "Ndα̂kwαn", "source": "dictionary"}
+{"id": "pair_000320", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂kwαn", "output": "Maison (de̍portation", "source": "dictionary"}
+{"id": "pair_000321", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Parti politique", "output": "Kǔmnkʉ̂nkʉ", "source": "dictionary"}
+{"id": "pair_000322", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kǔmnkʉ̂nkʉ", "output": "Parti politique", "source": "dictionary"}
+{"id": "pair_000323", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Poumons", "output": "Bǎgtʉꞌ", "source": "dictionary"}
+{"id": "pair_000324", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bǎgtʉꞌ", "output": "Poumons", "source": "dictionary"}
+{"id": "pair_000325", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Jaloux", "output": "Ngàlα̌nmɛ̀n", "source": "dictionary"}
+{"id": "pair_000326", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàlα̌nmɛ̀n", "output": "Jaloux", "source": "dictionary"}
+{"id": "pair_000327", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Promettre", "output": "Nə̀ kaꞌa", "source": "dictionary"}
+{"id": "pair_000328", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kaꞌa", "output": "Promettre", "source": "dictionary"}
+{"id": "pair_000329", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rivaliser", "output": "Nə̀ saꞌ mbàꞌ", "source": "dictionary"}
+{"id": "pair_000330", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ saꞌ mbàꞌ", "output": "Rivaliser", "source": "dictionary"}
+{"id": "pair_000331", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chœur (en)", "output": "Bwoŋ̍", "source": "dictionary"}
+{"id": "pair_000332", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bwoŋ̍", "output": "Chœur (en)", "source": "dictionary"}
+{"id": "pair_000333", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Quelquꞌun", "output": "Mǒꞌ mɛ̀n", "source": "dictionary"}
+{"id": "pair_000334", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mǒꞌ mɛ̀n", "output": "Quelquꞌun", "source": "dictionary"}
+{"id": "pair_000335", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cuisine", "output": "Fə̌ꞌmbwogə", "source": "dictionary"}
+{"id": "pair_000336", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fə̌ꞌmbwogə", "output": "Cuisine", "source": "dictionary"}
+{"id": "pair_000337", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Hôtel", "output": "Ndα̂ghʉ̀n", "source": "dictionary"}
+{"id": "pair_000338", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂ghʉ̀n", "output": "Hôtel", "source": "dictionary"}
+{"id": "pair_000339", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Elargir", "output": "Nə̀ ghaꞌtə", "source": "dictionary"}
+{"id": "pair_000340", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ghaꞌtə", "output": "Elargir", "source": "dictionary"}
+{"id": "pair_000341", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Nier", "output": "Nə̀ gha", "source": "dictionary"}
+{"id": "pair_000342", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ gha", "output": "Nier", "source": "dictionary"}
+{"id": "pair_000343", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sauce", "output": "Sogə", "source": "dictionary"}
+{"id": "pair_000344", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Sogə", "output": "Sauce", "source": "dictionary"}
+{"id": "pair_000345", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bord", "output": "Ngǒŋ", "source": "dictionary"}
+{"id": "pair_000346", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngǒŋ", "output": "Bord", "source": "dictionary"}
+{"id": "pair_000347", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cadi(boire le)", "output": "Nə̀ nu ngù", "source": "dictionary"}
+{"id": "pair_000348", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nu ngù", "output": "Cadi(boire le)", "source": "dictionary"}
+{"id": "pair_000349", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chatouiller", "output": "Nə̀ nyàŋtə̌", "source": "dictionary"}
+{"id": "pair_000350", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nyàŋtə̌", "output": "Chatouiller", "source": "dictionary"}
+{"id": "pair_000351", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Demeurer", "output": "Nə̀ ghɔ", "source": "dictionary"}
+{"id": "pair_000352", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ghɔ", "output": "Demeurer", "source": "dictionary"}
+{"id": "pair_000353", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Répentir", "output": "Nə̀ kǎŋntʉ", "source": "dictionary"}
+{"id": "pair_000354", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kǎŋntʉ", "output": "Répentir", "source": "dictionary"}
+{"id": "pair_000355", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mûrir", "output": "Nə̀ tswə", "source": "dictionary"}
+{"id": "pair_000356", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tswə", "output": "Mûrir", "source": "dictionary"}
+{"id": "pair_000357", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chant(complantes)", "output": "Nə̀ t̀otə vʉ", "source": "dictionary"}
+{"id": "pair_000358", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ t̀otə vʉ", "output": "Chant(complantes)", "source": "dictionary"}
+{"id": "pair_000359", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pilote", "output": "Ngàsoŋ", "source": "dictionary"}
+{"id": "pair_000360", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàsoŋ", "output": "Pilote", "source": "dictionary"}
+{"id": "pair_000361", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cousin", "output": "Fàd", "source": "dictionary"}
+{"id": "pair_000362", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fàd", "output": "Cousin", "source": "dictionary"}
+{"id": "pair_000363", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Doctrine", "output": "Nkwαlὰ", "source": "dictionary"}
+{"id": "pair_000364", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkwαlὰ", "output": "Doctrine", "source": "dictionary"}
+{"id": "pair_000365", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Ils / elles (eux)", "output": "Bo", "source": "dictionary"}
+{"id": "pair_000366", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bo", "output": "Ils / elles (eux)", "source": "dictionary"}
+{"id": "pair_000367", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fosse̍", "output": "Fubntsə", "source": "dictionary"}
+{"id": "pair_000368", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fubntsə", "output": "Fosse̍", "source": "dictionary"}
+{"id": "pair_000369", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Division", "output": "Ghὰbtə̀", "source": "dictionary"}
+{"id": "pair_000370", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ghὰbtə̀", "output": "Division", "source": "dictionary"}
+{"id": "pair_000371", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Veuf", "output": "Mefogmαdùm", "source": "dictionary"}
+{"id": "pair_000372", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mefogmαdùm", "output": "Veuf", "source": "dictionary"}
+{"id": "pair_000373", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chasser", "output": "Nə̀ taꞌa", "source": "dictionary"}
+{"id": "pair_000374", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ taꞌa", "output": "Chasser", "source": "dictionary"}
+{"id": "pair_000375", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Prêter attention", "output": "Nə̀ kʉꞌ ntoŋ", "source": "dictionary"}
+{"id": "pair_000376", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kʉꞌ ntoŋ", "output": "Prêter attention", "source": "dictionary"}
+{"id": "pair_000377", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cime", "output": "Tu", "source": "dictionary"}
+{"id": "pair_000378", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tu", "output": "Cime", "source": "dictionary"}
+{"id": "pair_000379", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tribulation", "output": "Ngə̀", "source": "dictionary"}
+{"id": "pair_000380", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngə̀", "output": "Tribulation", "source": "dictionary"}
+{"id": "pair_000381", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tribu", "output": "Nzwìd", "source": "dictionary"}
+{"id": "pair_000382", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nzwìd", "output": "Tribu", "source": "dictionary"}
+{"id": "pair_000383", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Veiller", "output": "Nə̀ zi cʉâlo", "source": "dictionary"}
+{"id": "pair_000384", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ zi cʉâlo", "output": "Veiller", "source": "dictionary"}
+{"id": "pair_000385", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sage", "output": "Nkûmmɛ̀n", "source": "dictionary"}
+{"id": "pair_000386", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkûmmɛ̀n", "output": "Sage", "source": "dictionary"}
+{"id": "pair_000387", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chambre dꞌagriculture", "output": "ndαnǔnὰ", "source": "dictionary"}
+{"id": "pair_000388", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "ndαnǔnὰ", "output": "Chambre dꞌagriculture", "source": "dictionary"}
+{"id": "pair_000389", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Beau (belle)", "output": "bwɔ̌", "source": "dictionary"}
+{"id": "pair_000390", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "bwɔ̌", "output": "Beau (belle)", "source": "dictionary"}
+{"id": "pair_000391", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Attrister", "output": "Nə nywinə", "source": "dictionary"}
+{"id": "pair_000392", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə nywinə", "output": "Attrister", "source": "dictionary"}
+{"id": "pair_000393", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "devise", "output": "Bʉ̀ꞌ mɛ̀n", "source": "dictionary"}
+{"id": "pair_000394", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bʉ̀ꞌ mɛ̀n", "output": "devise", "source": "dictionary"}
+{"id": "pair_000395", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tousser", "output": "Nə̀ bǎꞌkwiag", "source": "dictionary"}
+{"id": "pair_000396", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bǎꞌkwiag", "output": "Tousser", "source": "dictionary"}
+{"id": "pair_000397", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pre̍sent (le)", "output": "Ndɔ̌nni", "source": "dictionary"}
+{"id": "pair_000398", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndɔ̌nni", "output": "Pre̍sent (le)", "source": "dictionary"}
+{"id": "pair_000399", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Réserver", "output": "Nə̀ leꞌe", "source": "dictionary"}
+{"id": "pair_000400", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ leꞌe", "output": "Réserver", "source": "dictionary"}
+{"id": "pair_000401", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Révolution", "output": "Nə̀gha", "source": "dictionary"}
+{"id": "pair_000402", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀gha", "output": "Révolution", "source": "dictionary"}
+{"id": "pair_000403", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Le̍gume", "output": "Njὰb", "source": "dictionary"}
+{"id": "pair_000404", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njὰb", "output": "Le̍gume", "source": "dictionary"}
+{"id": "pair_000405", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Entourer", "output": "Nə̀ diàŋ mbumə", "source": "dictionary"}
+{"id": "pair_000406", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ diàŋ mbumə", "output": "Entourer", "source": "dictionary"}
+{"id": "pair_000407", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "abre̍ger", "output": "Nə̀ sə̀btə̌", "source": "dictionary"}
+{"id": "pair_000408", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sə̀btə̌", "output": "abre̍ger", "source": "dictionary"}
+{"id": "pair_000409", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Taureau", "output": "Fǒdnaꞌ", "source": "dictionary"}
+{"id": "pair_000410", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fǒdnaꞌ", "output": "Taureau", "source": "dictionary"}
+{"id": "pair_000411", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Revers (main)", "output": "Njamnzwə", "source": "dictionary"}
+{"id": "pair_000412", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njamnzwə", "output": "Revers (main)", "source": "dictionary"}
+{"id": "pair_000413", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Arrogant", "output": "Ngàntâꞌ nkù", "source": "dictionary"}
+{"id": "pair_000414", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàntâꞌ nkù", "output": "Arrogant", "source": "dictionary"}
+{"id": "pair_000415", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bois", "output": "ncwɛn", "source": "dictionary"}
+{"id": "pair_000416", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "ncwɛn", "output": "Bois", "source": "dictionary"}
+{"id": "pair_000417", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Jꞌai bu de lꞌeau aujourdꞌhui", "output": "Mə̀ nu ntsə nsɛ̌nnî", "source": "expressions"}
+{"id": "pair_000418", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə̀ nu ntsə nsɛ̌nnî", "output": "Jꞌai bu de lꞌeau aujourdꞌhui", "source": "expressions"}
+{"id": "pair_000419", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Foule", "output": "Bwǒŋbə̀nntʉ̀n", "source": "dictionary"}
+{"id": "pair_000420", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bwǒŋbə̀nntʉ̀n", "output": "Foule", "source": "dictionary"}
+{"id": "pair_000421", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Crever", "output": "Nə̀ to / nə̀ bɛtə", "source": "dictionary"}
+{"id": "pair_000422", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ to / nə̀ bɛtə", "output": "Crever", "source": "dictionary"}
+{"id": "pair_000423", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Circoncire", "output": "Nə̀ mǎꞌ mɛ̀n njà", "source": "dictionary"}
+{"id": "pair_000424", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ mǎꞌ mɛ̀n njà", "output": "Circoncire", "source": "dictionary"}
+{"id": "pair_000425", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Souffrance", "output": "Ngʉ̀dnì", "source": "dictionary"}
+{"id": "pair_000426", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngʉ̀dnì", "output": "Souffrance", "source": "dictionary"}
+{"id": "pair_000427", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Intension", "output": "Nkwàtə̀", "source": "dictionary"}
+{"id": "pair_000428", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkwàtə̀", "output": "Intension", "source": "dictionary"}
+{"id": "pair_000429", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chauffeur", "output": "Ngàsòŋ", "source": "dictionary"}
+{"id": "pair_000430", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàsòŋ", "output": "Chauffeur", "source": "dictionary"}
+{"id": "pair_000431", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tiers", "output": "Ncʉ̌ꞌ nùm tad", "source": "dictionary"}
+{"id": "pair_000432", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncʉ̌ꞌ nùm tad", "output": "Tiers", "source": "dictionary"}
+{"id": "pair_000433", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pondre (oeuf)", "output": "Nə̀ maꞌa (bum)", "source": "dictionary"}
+{"id": "pair_000434", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ maꞌa (bum)", "output": "Pondre (oeuf)", "source": "dictionary"}
+{"id": "pair_000435", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Oui", "output": "Ŋ̂", "source": "dictionary"}
+{"id": "pair_000436", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ŋ̂", "output": "Oui", "source": "dictionary"}
+{"id": "pair_000437", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Accouchement", "output": "Nə̀mbwə", "source": "dictionary"}
+{"id": "pair_000438", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀mbwə", "output": "Accouchement", "source": "dictionary"}
+{"id": "pair_000439", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Retrecir", "output": "Nə̀ meme", "source": "dictionary"}
+{"id": "pair_000440", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ meme", "output": "Retrecir", "source": "dictionary"}
+{"id": "pair_000441", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Complimenter", "output": "Nə̀ tʉn ndὰb", "source": "dictionary"}
+{"id": "pair_000442", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tʉn ndὰb", "output": "Complimenter", "source": "dictionary"}
+{"id": "pair_000443", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tapage", "output": "Yàꞌyàꞌ", "source": "dictionary"}
+{"id": "pair_000444", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Yàꞌyàꞌ", "output": "Tapage", "source": "dictionary"}
+{"id": "pair_000445", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Salive", "output": "Ntsi", "source": "dictionary"}
+{"id": "pair_000446", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntsi", "output": "Salive", "source": "dictionary"}
+{"id": "pair_000447", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Témoignage", "output": "Nta", "source": "dictionary"}
+{"id": "pair_000448", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nta", "output": "Témoignage", "source": "dictionary"}
+{"id": "pair_000449", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chaux", "output": "Mbəmə", "source": "dictionary"}
+{"id": "pair_000450", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbəmə", "output": "Chaux", "source": "dictionary"}
+{"id": "pair_000451", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Jugement", "output": "Kamə", "source": "dictionary"}
+{"id": "pair_000452", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kamə", "output": "Jugement", "source": "dictionary"}
+{"id": "pair_000453", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Arriver", "output": "Nə̀ kùmə", "source": "dictionary"}
+{"id": "pair_000454", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kùmə", "output": "Arriver", "source": "dictionary"}
+{"id": "pair_000455", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Revers (échec)", "output": "Njèm", "source": "dictionary"}
+{"id": "pair_000456", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njèm", "output": "Revers (échec)", "source": "dictionary"}
+{"id": "pair_000457", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fort (très)", "output": "Vôgncʉꞌ", "source": "dictionary"}
+{"id": "pair_000458", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Vôgncʉꞌ", "output": "Fort (très)", "source": "dictionary"}
+{"id": "pair_000459", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Corps (partie du)", "output": "Nkǎmwud", "source": "dictionary"}
+{"id": "pair_000460", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkǎmwud", "output": "Corps (partie du)", "source": "dictionary"}
+{"id": "pair_000461", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Ôter", "output": "Nə̀ sɔ̌", "source": "dictionary"}
+{"id": "pair_000462", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sɔ̌", "output": "Ôter", "source": "dictionary"}
+{"id": "pair_000463", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Essayer", "output": "Nə̀ fìꞌtə̌", "source": "dictionary"}
+{"id": "pair_000464", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ fìꞌtə̌", "output": "Essayer", "source": "dictionary"}
+{"id": "pair_000465", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chat", "output": "Bùsi", "source": "dictionary"}
+{"id": "pair_000466", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bùsi", "output": "Chat", "source": "dictionary"}
+{"id": "pair_000467", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rompre", "output": "Nə̀ kəbe", "source": "dictionary"}
+{"id": "pair_000468", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kəbe", "output": "Rompre", "source": "dictionary"}
+{"id": "pair_000469", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Boueux", "output": "tòbtə̌", "source": "dictionary"}
+{"id": "pair_000470", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "tòbtə̌", "output": "Boueux", "source": "dictionary"}
+{"id": "pair_000471", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "aurevoir ! À bientot !", "output": "Mə nɛ̌n mbὰ ! bə̌ tʉꞌ mə nda ̀ꞌnda ̀ꞌ mbα!", "source": "expressions"}
+{"id": "pair_000472", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə nɛ̌n mbὰ ! bə̌ tʉꞌ mə nda ̀ꞌnda ̀ꞌ mbα!", "output": "aurevoir ! À bientot !", "source": "expressions"}
+{"id": "pair_000473", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Garder", "output": "Nə̀ ləmə", "source": "dictionary"}
+{"id": "pair_000474", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ləmə", "output": "Garder", "source": "dictionary"}
+{"id": "pair_000475", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chaud", "output": "Nə̀dum", "source": "dictionary"}
+{"id": "pair_000476", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀dum", "output": "Chaud", "source": "dictionary"}
+{"id": "pair_000477", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Honneur", "output": "Nkùꞌnì", "source": "dictionary"}
+{"id": "pair_000478", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkùꞌnì", "output": "Honneur", "source": "dictionary"}
+{"id": "pair_000479", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Moisir", "output": "Ŋwʉ", "source": "dictionary"}
+{"id": "pair_000480", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ŋwʉ", "output": "Moisir", "source": "dictionary"}
+{"id": "pair_000481", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tout puissant", "output": "Ngànə̀ta", "source": "dictionary"}
+{"id": "pair_000482", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngànə̀ta", "output": "Tout puissant", "source": "dictionary"}
+{"id": "pair_000483", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sœur", "output": "Ngònmα", "source": "dictionary"}
+{"id": "pair_000484", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngònmα", "output": "Sœur", "source": "dictionary"}
+{"id": "pair_000485", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Potier", "output": "Ntə̂kab", "source": "dictionary"}
+{"id": "pair_000486", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntə̂kab", "output": "Potier", "source": "dictionary"}
+{"id": "pair_000487", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cheville", "output": "Mbâkù", "source": "dictionary"}
+{"id": "pair_000488", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbâkù", "output": "Cheville", "source": "dictionary"}
+{"id": "pair_000489", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Couteau", "output": "Bi", "source": "dictionary"}
+{"id": "pair_000490", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bi", "output": "Couteau", "source": "dictionary"}
+{"id": "pair_000491", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Craie", "output": "Mbə̂mkì", "source": "dictionary"}
+{"id": "pair_000492", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbə̂mkì", "output": "Craie", "source": "dictionary"}
+{"id": "pair_000493", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Hanche", "output": "Zwəꞌə", "source": "dictionary"}
+{"id": "pair_000494", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Zwəꞌə", "output": "Hanche", "source": "dictionary"}
+{"id": "pair_000495", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Corps (corporation", "output": "Ghǎ", "source": "dictionary"}
+{"id": "pair_000496", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ghǎ", "output": "Corps (corporation", "source": "dictionary"}
+{"id": "pair_000497", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Coller", "output": "Nə̀ ŋαbə", "source": "dictionary"}
+{"id": "pair_000498", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ŋαbə", "output": "Coller", "source": "dictionary"}
+{"id": "pair_000499", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Respirer", "output": "Nə̀ zwiagə", "source": "dictionary"}
+{"id": "pair_000500", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ zwiagə", "output": "Respirer", "source": "dictionary"}
+{"id": "pair_000501", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dysenterie", "output": "Cobomə", "source": "dictionary"}
+{"id": "pair_000502", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Cobomə", "output": "Dysenterie", "source": "dictionary"}
+{"id": "pair_000503", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Gobelet", "output": "Lendtsə", "source": "dictionary"}
+{"id": "pair_000504", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Lendtsə", "output": "Gobelet", "source": "dictionary"}
+{"id": "pair_000505", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Enseigner", "output": "Nə̀ twǐtə̌", "source": "dictionary"}
+{"id": "pair_000506", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ twǐtə̌", "output": "Enseigner", "source": "dictionary"}
+{"id": "pair_000507", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Le̍preux", "output": "Ngànkinə", "source": "dictionary"}
+{"id": "pair_000508", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngànkinə", "output": "Le̍preux", "source": "dictionary"}
+{"id": "pair_000509", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Trappe", "output": "Ywìꞌ", "source": "dictionary"}
+{"id": "pair_000510", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ywìꞌ", "output": "Trappe", "source": "dictionary"}
+{"id": "pair_000511", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Conscience", "output": "Nzə̀ntʉ", "source": "dictionary"}
+{"id": "pair_000512", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nzə̀ntʉ", "output": "Conscience", "source": "dictionary"}
+{"id": "pair_000513", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Marmite", "output": "Mba", "source": "dictionary"}
+{"id": "pair_000514", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mba", "output": "Marmite", "source": "dictionary"}
+{"id": "pair_000515", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Re̍colter", "output": "Nə̀ coꞌcu", "source": "dictionary"}
+{"id": "pair_000516", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ coꞌcu", "output": "Re̍colter", "source": "dictionary"}
+{"id": "pair_000517", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Poli", "output": "Ngàyǎncù", "source": "dictionary"}
+{"id": "pair_000518", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàyǎncù", "output": "Poli", "source": "dictionary"}
+{"id": "pair_000519", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Atelier", "output": "Dʉ̌ꞌ fàꞌ", "source": "dictionary"}
+{"id": "pair_000520", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Dʉ̌ꞌ fàꞌ", "output": "Atelier", "source": "dictionary"}
+{"id": "pair_000521", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fort", "output": "Ngànə̀tà", "source": "dictionary"}
+{"id": "pair_000522", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngànə̀tà", "output": "Fort", "source": "dictionary"}
+{"id": "pair_000523", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Souscription", "output": "Màꞌtə̀", "source": "dictionary"}
+{"id": "pair_000524", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Màꞌtə̀", "output": "Souscription", "source": "dictionary"}
+{"id": "pair_000525", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Offrande", "output": "Fαbwɔ̌ntʉ", "source": "dictionary"}
+{"id": "pair_000526", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fαbwɔ̌ntʉ", "output": "Offrande", "source": "dictionary"}
+{"id": "pair_000527", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chercher", "output": "Nə̀ diàgə", "source": "dictionary"}
+{"id": "pair_000528", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ diàgə", "output": "Chercher", "source": "dictionary"}
+{"id": "pair_000529", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Intestin", "output": "Nto", "source": "dictionary"}
+{"id": "pair_000530", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nto", "output": "Intestin", "source": "dictionary"}
+{"id": "pair_000531", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bave (sèche)", "output": "Nkə̀kə̀", "source": "dictionary"}
+{"id": "pair_000532", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkə̀kə̀", "output": "Bave (sèche)", "source": "dictionary"}
+{"id": "pair_000533", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Travail", "output": "Fàꞌ", "source": "dictionary"}
+{"id": "pair_000534", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fàꞌ", "output": "Travail", "source": "dictionary"}
+{"id": "pair_000535", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Roi", "output": "Mfə̀n", "source": "dictionary"}
+{"id": "pair_000536", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mfə̀n", "output": "Roi", "source": "dictionary"}
+{"id": "pair_000537", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dialoguer", "output": "Nə̀ fian̍təncobə", "source": "dictionary"}
+{"id": "pair_000538", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ fian̍təncobə", "output": "Dialoguer", "source": "dictionary"}
+{"id": "pair_000539", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Coupe (trophe̍e)", "output": "Mα̂mtuꞌ", "source": "dictionary"}
+{"id": "pair_000540", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mα̂mtuꞌ", "output": "Coupe (trophe̍e)", "source": "dictionary"}
+{"id": "pair_000541", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Secret (en)", "output": "Njàm càm", "source": "dictionary"}
+{"id": "pair_000542", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njàm càm", "output": "Secret (en)", "source": "dictionary"}
+{"id": "pair_000543", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tranchée", "output": "Nsam", "source": "dictionary"}
+{"id": "pair_000544", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nsam", "output": "Tranchée", "source": "dictionary"}
+{"id": "pair_000545", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "avorter", "output": "Nə̀ sɔ̌ bàm", "source": "dictionary"}
+{"id": "pair_000546", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sɔ̌ bàm", "output": "avorter", "source": "dictionary"}
+{"id": "pair_000547", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Obstacle", "output": "Kələꞌə", "source": "dictionary"}
+{"id": "pair_000548", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kələꞌə", "output": "Obstacle", "source": "dictionary"}
+{"id": "pair_000549", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Manquer", "output": "Nə̀ bwoŋə", "source": "dictionary"}
+{"id": "pair_000550", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bwoŋə", "output": "Manquer", "source": "dictionary"}
+{"id": "pair_000551", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Refroidir", "output": "nə̀ ghʉ̀ a fi", "source": "dictionary"}
+{"id": "pair_000552", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "nə̀ ghʉ̀ a fi", "output": "Refroidir", "source": "dictionary"}
+{"id": "pair_000553", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Interroger", "output": "Nə̀ bɛdtə̀", "source": "dictionary"}
+{"id": "pair_000554", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bɛdtə̀", "output": "Interroger", "source": "dictionary"}
+{"id": "pair_000555", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Impitoiyable", "output": "Kə̀zəwʉ", "source": "dictionary"}
+{"id": "pair_000556", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kə̀zəwʉ", "output": "Impitoiyable", "source": "dictionary"}
+{"id": "pair_000557", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Au dehors", "output": "Ncùndα", "source": "dictionary"}
+{"id": "pair_000558", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncùndα", "output": "Au dehors", "source": "dictionary"}
+{"id": "pair_000559", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Plateau", "output": "Məkôngà", "source": "dictionary"}
+{"id": "pair_000560", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Məkôngà", "output": "Plateau", "source": "dictionary"}
+{"id": "pair_000561", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Re̍daction", "output": "Lɛ̀nnkî", "source": "dictionary"}
+{"id": "pair_000562", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Lɛ̀nnkî", "output": "Re̍daction", "source": "dictionary"}
+{"id": "pair_000563", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Indigent", "output": "Ngàyəngəꞌ", "source": "dictionary"}
+{"id": "pair_000564", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàyəngəꞌ", "output": "Indigent", "source": "dictionary"}
+{"id": "pair_000565", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Femme patriarche", "output": "Mα̂mfiꞌngɔ̀", "source": "dictionary"}
+{"id": "pair_000566", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mα̂mfiꞌngɔ̀", "output": "Femme patriarche", "source": "dictionary"}
+{"id": "pair_000567", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Officine", "output": "Ndα̂kà", "source": "dictionary"}
+{"id": "pair_000568", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂kà", "output": "Officine", "source": "dictionary"}
+{"id": "pair_000569", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mal", "output": "Ngə̀", "source": "dictionary"}
+{"id": "pair_000570", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngə̀", "output": "Mal", "source": "dictionary"}
+{"id": "pair_000571", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Haïr", "output": "Nə̀ bὰnə", "source": "dictionary"}
+{"id": "pair_000572", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bὰnə", "output": "Haïr", "source": "dictionary"}
+{"id": "pair_000573", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Saluer", "output": "Nə̀ càꞌtə", "source": "dictionary"}
+{"id": "pair_000574", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ càꞌtə", "output": "Saluer", "source": "dictionary"}
+{"id": "pair_000575", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "prêter", "output": "Nə̀ fǒ", "source": "dictionary"}
+{"id": "pair_000576", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ fǒ", "output": "prêter", "source": "dictionary"}
+{"id": "pair_000577", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Erreur", "output": "Tὰbtə̀", "source": "dictionary"}
+{"id": "pair_000578", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tὰbtə̀", "output": "Erreur", "source": "dictionary"}
+{"id": "pair_000579", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Interdiction", "output": "kὰn", "source": "dictionary"}
+{"id": "pair_000580", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "kὰn", "output": "Interdiction", "source": "dictionary"}
+{"id": "pair_000581", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Classe", "output": "Ghuαn", "source": "dictionary"}
+{"id": "pair_000582", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ghuαn", "output": "Classe", "source": "dictionary"}
+{"id": "pair_000583", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tailler", "output": "Nə̀ sitə", "source": "dictionary"}
+{"id": "pair_000584", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sitə", "output": "Tailler", "source": "dictionary"}
+{"id": "pair_000585", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Boire", "output": "Nə̀ nu", "source": "dictionary"}
+{"id": "pair_000586", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nu", "output": "Boire", "source": "dictionary"}
+{"id": "pair_000587", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "capacité̍", "output": "Mbàꞌ", "source": "dictionary"}
+{"id": "pair_000588", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbàꞌ", "output": "capacité̍", "source": "dictionary"}
+{"id": "pair_000589", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Semeur", "output": "Ngàywìd", "source": "dictionary"}
+{"id": "pair_000590", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàywìd", "output": "Semeur", "source": "dictionary"}
+{"id": "pair_000591", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "achète-moi quelque chose", "output": "jun jû mə̀", "source": "expressions"}
+{"id": "pair_000592", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "jun jû mə̀", "output": "achète-moi quelque chose", "source": "expressions"}
+{"id": "pair_000593", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dès que", "output": "Bə̂ ndʉ̀sə", "source": "dictionary"}
+{"id": "pair_000594", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bə̂ ndʉ̀sə", "output": "Dès que", "source": "dictionary"}
+{"id": "pair_000595", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Incident", "output": "Bìtò", "source": "dictionary"}
+{"id": "pair_000596", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bìtò", "output": "Incident", "source": "dictionary"}
+{"id": "pair_000597", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Moindre", "output": "Metsid", "source": "dictionary"}
+{"id": "pair_000598", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Metsid", "output": "Moindre", "source": "dictionary"}
+{"id": "pair_000599", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Expressement", "output": "Faꞌtə̀faꞌtə̀", "source": "dictionary"}
+{"id": "pair_000600", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Faꞌtə̀faꞌtə̀", "output": "Expressement", "source": "dictionary"}
+{"id": "pair_000601", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rencontre", "output": "Nəbùmtə̌", "source": "dictionary"}
+{"id": "pair_000602", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nəbùmtə̌", "output": "Rencontre", "source": "dictionary"}
+{"id": "pair_000603", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Salle dꞌattente", "output": "Ndα̂beb", "source": "dictionary"}
+{"id": "pair_000604", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndα̂beb", "output": "Salle dꞌattente", "source": "dictionary"}
+{"id": "pair_000605", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tacheté", "output": "Ncǒbncob", "source": "dictionary"}
+{"id": "pair_000606", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncǒbncob", "output": "Tacheté", "source": "dictionary"}
+{"id": "pair_000607", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Port", "output": "Ncùntsə (", "source": "dictionary"}
+{"id": "pair_000608", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncùntsə (", "output": "Port", "source": "dictionary"}
+{"id": "pair_000609", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Charbon ardent", "output": "Ngəꞌ mbwogə", "source": "dictionary"}
+{"id": "pair_000610", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngəꞌ mbwogə", "output": "Charbon ardent", "source": "dictionary"}
+{"id": "pair_000611", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Maison", "output": "Tunndα", "source": "dictionary"}
+{"id": "pair_000612", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tunndα", "output": "Maison", "source": "dictionary"}
+{"id": "pair_000613", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "cꞌest pour la pre̍mier fois", "output": "a bə α̂ yὰm mbwə̀ yòŋi", "source": "expressions"}
+{"id": "pair_000614", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "a bə α̂ yὰm mbwə̀ yòŋi", "output": "cꞌest pour la pre̍mier fois", "source": "expressions"}
+{"id": "pair_000615", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Provoquer", "output": "Nə̀ kàmə ncà", "source": "dictionary"}
+{"id": "pair_000616", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kàmə ncà", "output": "Provoquer", "source": "dictionary"}
+{"id": "pair_000617", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Famine", "output": "Kuα", "source": "dictionary"}
+{"id": "pair_000618", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kuα", "output": "Famine", "source": "dictionary"}
+{"id": "pair_000619", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Docteur en medecine", "output": "Ndɛ̀nngα̂mghòn", "source": "dictionary"}
+{"id": "pair_000620", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndɛ̀nngα̂mghòn", "output": "Docteur en medecine", "source": "dictionary"}
+{"id": "pair_000621", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Elever", "output": "Nə̀ kwiagtə", "source": "dictionary"}
+{"id": "pair_000622", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kwiagtə", "output": "Elever", "source": "dictionary"}
+{"id": "pair_000623", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rhume", "output": "M̀αŋwʉ", "source": "dictionary"}
+{"id": "pair_000624", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "M̀αŋwʉ", "output": "Rhume", "source": "dictionary"}
+{"id": "pair_000625", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Semaine", "output": "Ngὰbnjʉ", "source": "dictionary"}
+{"id": "pair_000626", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngὰbnjʉ", "output": "Semaine", "source": "dictionary"}
+{"id": "pair_000627", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "jꞌen est assez de vos barvadage", "output": "mə̀ yα̌ bod cαm ncobtα mu", "source": "expressions"}
+{"id": "pair_000628", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "mə̀ yα̌ bod cαm ncobtα mu", "output": "jꞌen est assez de vos barvadage", "source": "expressions"}
+{"id": "pair_000629", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Gaite̍", "output": "Satə̀", "source": "dictionary"}
+{"id": "pair_000630", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Satə̀", "output": "Gaite̍", "source": "dictionary"}
+{"id": "pair_000631", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Egayer les gens", "output": "Nə ghagni bə̀nntʉ̀n", "source": "dictionary"}
+{"id": "pair_000632", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə ghagni bə̀nntʉ̀n", "output": "Egayer les gens", "source": "dictionary"}
+{"id": "pair_000633", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pour", "output": "Nǔm", "source": "dictionary"}
+{"id": "pair_000634", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nǔm", "output": "Pour", "source": "dictionary"}
+{"id": "pair_000635", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Prognate", "output": "Nyînnso", "source": "dictionary"}
+{"id": "pair_000636", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nyînnso", "output": "Prognate", "source": "dictionary"}
+{"id": "pair_000637", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Verre vitre", "output": "Yəntə̀", "source": "dictionary"}
+{"id": "pair_000638", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Yəntə̀", "output": "Verre vitre", "source": "dictionary"}
+{"id": "pair_000639", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Evangéliser", "output": "Nə̀ cob nkùn mə̀bwɔ (v", "source": "dictionary"}
+{"id": "pair_000640", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ cob nkùn mə̀bwɔ (v", "output": "Evangéliser", "source": "dictionary"}
+{"id": "pair_000641", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Maquis", "output": "Fɛ̀n", "source": "dictionary"}
+{"id": "pair_000642", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fɛ̀n", "output": "Maquis", "source": "dictionary"}
+{"id": "pair_000643", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fanfaronnade", "output": "Nhâgha", "source": "dictionary"}
+{"id": "pair_000644", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nhâgha", "output": "Fanfaronnade", "source": "dictionary"}
+{"id": "pair_000645", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Source", "output": "Lα̂ntsə", "source": "dictionary"}
+{"id": "pair_000646", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Lα̂ntsə", "output": "Source", "source": "dictionary"}
+{"id": "pair_000647", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Obliquer", "output": "Ngwâŋnkʉꞌʉ", "source": "dictionary"}
+{"id": "pair_000648", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngwâŋnkʉꞌʉ", "output": "Obliquer", "source": "dictionary"}
+{"id": "pair_000649", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "comptoir", "output": "Nkoꞌ", "source": "dictionary"}
+{"id": "pair_000650", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkoꞌ", "output": "comptoir", "source": "dictionary"}
+{"id": "pair_000651", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dictature", "output": "Ngʉꞌ tɔ̀ngò", "source": "dictionary"}
+{"id": "pair_000652", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngʉꞌ tɔ̀ngò", "output": "Dictature", "source": "dictionary"}
+{"id": "pair_000653", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Persévérance", "output": "Kàgtʉ̀n", "source": "dictionary"}
+{"id": "pair_000654", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kàgtʉ̀n", "output": "Persévérance", "source": "dictionary"}
+{"id": "pair_000655", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "il a vraiment tarde̍ de sorti", "output": "a be̍ tum ntswe̍", "source": "expressions"}
+{"id": "pair_000656", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "a be̍ tum ntswe̍", "output": "il a vraiment tarde̍ de sorti", "source": "expressions"}
+{"id": "pair_000657", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Zéro", "output": "Bα̌nbαn", "source": "dictionary"}
+{"id": "pair_000658", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bα̌nbαn", "output": "Zéro", "source": "dictionary"}
+{"id": "pair_000659", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Endroit", "output": "Dʉꞌ", "source": "dictionary"}
+{"id": "pair_000660", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Dʉꞌ", "output": "Endroit", "source": "dictionary"}
+{"id": "pair_000661", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chauffer", "output": "Nə̀ dùmtə̌", "source": "dictionary"}
+{"id": "pair_000662", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ dùmtə̌", "output": "Chauffer", "source": "dictionary"}
+{"id": "pair_000663", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Siffler", "output": "Nə tɔ", "source": "dictionary"}
+{"id": "pair_000664", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə tɔ", "output": "Siffler", "source": "dictionary"}
+{"id": "pair_000665", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Me̍connaître", "output": "Nə̀ sələ", "source": "dictionary"}
+{"id": "pair_000666", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sələ", "output": "Me̍connaître", "source": "dictionary"}
+{"id": "pair_000667", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Enfantement", "output": "Nə̀bwə", "source": "dictionary"}
+{"id": "pair_000668", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀bwə", "output": "Enfantement", "source": "dictionary"}
+{"id": "pair_000669", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Serment prêter", "output": "Nə̀ kǎnmfə", "source": "dictionary"}
+{"id": "pair_000670", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kǎnmfə", "output": "Serment prêter", "source": "dictionary"}
+{"id": "pair_000671", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Saison de pluie", "output": "Ndʉ̌sαnə", "source": "dictionary"}
+{"id": "pair_000672", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndʉ̌sαnə", "output": "Saison de pluie", "source": "dictionary"}
+{"id": "pair_000673", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Veuvage", "output": "Fogə nə tswə", "source": "dictionary"}
+{"id": "pair_000674", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fogə nə tswə", "output": "Veuvage", "source": "dictionary"}
+{"id": "pair_000675", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rival", "output": "Ngàmaŋndʉꞌ", "source": "dictionary"}
+{"id": "pair_000676", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàmaŋndʉꞌ", "output": "Rival", "source": "dictionary"}
+{"id": "pair_000677", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "il se compare au grand", "output": "A cwěd ndoꞌ mfiꞌ wul i nǔm bὰ dʉ̂bdʉh", "source": "expressions"}
+{"id": "pair_000678", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "A cwěd ndoꞌ mfiꞌ wul i nǔm bὰ dʉ̂bdʉh", "output": "il se compare au grand", "source": "expressions"}
+{"id": "pair_000679", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Confusion", "output": "Cùꞌ tu", "source": "dictionary"}
+{"id": "pair_000680", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Cùꞌ tu", "output": "Confusion", "source": "dictionary"}
+{"id": "pair_000681", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pre̍cipiter", "output": "Nə̀ vògtə̌", "source": "dictionary"}
+{"id": "pair_000682", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ vògtə̌", "output": "Pre̍cipiter", "source": "dictionary"}
+{"id": "pair_000683", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Abandonner", "output": "Nə̀ nɛn bǎgbàg", "source": "dictionary"}
+{"id": "pair_000684", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nɛn bǎgbàg", "output": "Abandonner", "source": "dictionary"}
+{"id": "pair_000685", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tiédeur", "output": "Yobtə̀", "source": "dictionary"}
+{"id": "pair_000686", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Yobtə̀", "output": "Tiédeur", "source": "dictionary"}
+{"id": "pair_000687", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Convenir", "output": "Nə̀ nkùꞌu", "source": "dictionary"}
+{"id": "pair_000688", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nkùꞌu", "output": "Convenir", "source": "dictionary"}
+{"id": "pair_000689", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mort (un)", "output": "Fə̂mɛ̀n", "source": "dictionary"}
+{"id": "pair_000690", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fə̂mɛ̀n", "output": "Mort (un)", "source": "dictionary"}
+{"id": "pair_000691", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Couper", "output": "Nə̀ kəꞌə", "source": "dictionary"}
+{"id": "pair_000692", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kəꞌə", "output": "Couper", "source": "dictionary"}
+{"id": "pair_000693", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Boisson", "output": "jûnu", "source": "dictionary"}
+{"id": "pair_000694", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "jûnu", "output": "Boisson", "source": "dictionary"}
+{"id": "pair_000695", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Maçon", "output": "Kǔmbàꞌ", "source": "dictionary"}
+{"id": "pair_000696", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kǔmbàꞌ", "output": "Maçon", "source": "dictionary"}
+{"id": "pair_000697", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Recommandation", "output": "Nt̀hgə", "source": "dictionary"}
+{"id": "pair_000698", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nt̀hgə", "output": "Recommandation", "source": "dictionary"}
+{"id": "pair_000699", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Exact", "output": "Ndǎŋndaŋ", "source": "dictionary"}
+{"id": "pair_000700", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndǎŋndaŋ", "output": "Exact", "source": "dictionary"}
+{"id": "pair_000701", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Retribution", "output": "Ncôꞌfàꞌ", "source": "dictionary"}
+{"id": "pair_000702", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncôꞌfàꞌ", "output": "Retribution", "source": "dictionary"}
+{"id": "pair_000703", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Couture", "output": "Nə̀ tamə", "source": "dictionary"}
+{"id": "pair_000704", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tamə", "output": "Couture", "source": "dictionary"}
+{"id": "pair_000705", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Moitie̍", "output": "Tàŋkɛd", "source": "dictionary"}
+{"id": "pair_000706", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tàŋkɛd", "output": "Moitie̍", "source": "dictionary"}
+{"id": "pair_000707", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rêve", "output": "Njèm", "source": "dictionary"}
+{"id": "pair_000708", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njèm", "output": "Rêve", "source": "dictionary"}
+{"id": "pair_000709", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pasteur", "output": "Bαsitɔ̀", "source": "dictionary"}
+{"id": "pair_000710", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bαsitɔ̀", "output": "Pasteur", "source": "dictionary"}
+{"id": "pair_000711", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "ce sont les originaires de lꞌouest camerounꞌ", "output": "a bα̌ Bîyὰm bo bə dùala lα", "source": "expressions"}
+{"id": "pair_000712", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "a bα̌ Bîyὰm bo bə dùala lα", "output": "ce sont les originaires de lꞌouest camerounꞌ", "source": "expressions"}
+{"id": "pair_000713", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Machine", "output": "Lòŋ", "source": "dictionary"}
+{"id": "pair_000714", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Lòŋ", "output": "Machine", "source": "dictionary"}
+{"id": "pair_000715", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Etrangler", "output": "Nə̀ ba ntɔ", "source": "dictionary"}
+{"id": "pair_000716", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ba ntɔ", "output": "Etrangler", "source": "dictionary"}
+{"id": "pair_000717", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Figuier", "output": "Tʉcom", "source": "dictionary"}
+{"id": "pair_000718", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tʉcom", "output": "Figuier", "source": "dictionary"}
+{"id": "pair_000719", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "je ne connais pas cette choses", "output": "kə̂ꞌ lɛ̀n cə̂n cu lî", "source": "expressions"}
+{"id": "pair_000720", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "kə̂ꞌ lɛ̀n cə̂n cu lî", "output": "je ne connais pas cette choses", "source": "expressions"}
+{"id": "pair_000721", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Frapper", "output": "Nə̀ làbə", "source": "dictionary"}
+{"id": "pair_000722", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ làbə", "output": "Frapper", "source": "dictionary"}
+{"id": "pair_000723", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Re̍dempteur", "output": "Ngàcǔꞌmɛ̀n", "source": "dictionary"}
+{"id": "pair_000724", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàcǔꞌmɛ̀n", "output": "Re̍dempteur", "source": "dictionary"}
+{"id": "pair_000725", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Chef", "output": "Mfə̀n", "source": "dictionary"}
+{"id": "pair_000726", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mfə̀n", "output": "Chef", "source": "dictionary"}
+{"id": "pair_000727", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Ligne", "output": "Nka", "source": "dictionary"}
+{"id": "pair_000728", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nka", "output": "Ligne", "source": "dictionary"}
+{"id": "pair_000729", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Myste̍rieux", "output": "Nǔnsα", "source": "dictionary"}
+{"id": "pair_000730", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nǔnsα", "output": "Myste̍rieux", "source": "dictionary"}
+{"id": "pair_000731", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Accord", "output": "Ncùncʉꞌ", "source": "dictionary"}
+{"id": "pair_000732", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncùncʉꞌ", "output": "Accord", "source": "dictionary"}
+{"id": "pair_000733", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "je suis fatigue̍ de tꞌentendre", "output": "mə yα̌ juꞌ ô kα̂ mbolə", "source": "expressions"}
+{"id": "pair_000734", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "mə yα̌ juꞌ ô kα̂ mbolə", "output": "je suis fatigue̍ de tꞌentendre", "source": "expressions"}
+{"id": "pair_000735", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Poil", "output": "Nyaŋ", "source": "dictionary"}
+{"id": "pair_000736", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nyaŋ", "output": "Poil", "source": "dictionary"}
+{"id": "pair_000737", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Nous (lui et moi)", "output": "Bὰgyi", "source": "dictionary"}
+{"id": "pair_000738", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bὰgyi", "output": "Nous (lui et moi)", "source": "dictionary"}
+{"id": "pair_000739", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Agiter", "output": "Nə̀ kʉα̌", "source": "dictionary"}
+{"id": "pair_000740", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kʉα̌", "output": "Agiter", "source": "dictionary"}
+{"id": "pair_000741", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "un top orange", "output": "a ndǔꞌ NTSĚ BUMA", "source": "expressions"}
+{"id": "pair_000742", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "a ndǔꞌ NTSĚ BUMA", "output": "un top orange", "source": "expressions"}
+{"id": "pair_000743", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Interroger", "output": "Nə̀ bɛdtə", "source": "dictionary"}
+{"id": "pair_000744", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bɛdtə", "output": "Interroger", "source": "dictionary"}
+{"id": "pair_000745", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Teint", "output": "Ncʉ̀", "source": "dictionary"}
+{"id": "pair_000746", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncʉ̀", "output": "Teint", "source": "dictionary"}
+{"id": "pair_000747", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Colle", "output": "Ŋαbtə̀", "source": "dictionary"}
+{"id": "pair_000748", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ŋαbtə̀", "output": "Colle", "source": "dictionary"}
+{"id": "pair_000749", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tisser", "output": "Nə̀ baꞌa", "source": "dictionary"}
+{"id": "pair_000750", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ baꞌa", "output": "Tisser", "source": "dictionary"}
+{"id": "pair_000751", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Aromate", "output": "Mvɛd mə̀bwɔ", "source": "dictionary"}
+{"id": "pair_000752", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mvɛd mə̀bwɔ", "output": "Aromate", "source": "dictionary"}
+{"id": "pair_000753", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Abandonner", "output": "Nə̀ yɛ̀nə", "source": "dictionary"}
+{"id": "pair_000754", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ yɛ̀nə", "output": "Abandonner", "source": "dictionary"}
+{"id": "pair_000755", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Si je tꞌentends encore parler", "output": "Mə̀ bɛ̀n njûꞌ o côb nù", "source": "expressions"}
+{"id": "pair_000756", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə̀ bɛ̀n njûꞌ o côb nù", "output": "Si je tꞌentends encore parler", "source": "expressions"}
+{"id": "pair_000757", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Prêter sur gage", "output": "Nə̀ cwɛ̀lə", "source": "dictionary"}
+{"id": "pair_000758", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ cwɛ̀lə", "output": "Prêter sur gage", "source": "dictionary"}
+{"id": "pair_000759", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Puissant", "output": "Ngànə̀ta", "source": "dictionary"}
+{"id": "pair_000760", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngànə̀ta", "output": "Puissant", "source": "dictionary"}
+{"id": "pair_000761", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Je lꞌest croise̍ sur la route", "output": "Mə bumlɔ̀ b̀α̂g yi nùm mα̂nzɔ̀", "source": "expressions"}
+{"id": "pair_000762", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mə bumlɔ̀ b̀α̂g yi nùm mα̂nzɔ̀", "output": "Je lꞌest croise̍ sur la route", "source": "expressions"}
+{"id": "pair_000763", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Règle", "output": "Kə̂bnka", "source": "dictionary"}
+{"id": "pair_000764", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kə̂bnka", "output": "Règle", "source": "dictionary"}
+{"id": "pair_000765", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Premier fils", "output": "Tûswə", "source": "dictionary"}
+{"id": "pair_000766", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tûswə", "output": "Premier fils", "source": "dictionary"}
+{"id": "pair_000767", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Baigner (se)", "output": "Nə̀ sǒg wud", "source": "dictionary"}
+{"id": "pair_000768", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ sǒg wud", "output": "Baigner (se)", "source": "dictionary"}
+{"id": "pair_000769", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Luisant", "output": "Nə̀kèꞌe", "source": "dictionary"}
+{"id": "pair_000770", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀kèꞌe", "output": "Luisant", "source": "dictionary"}
+{"id": "pair_000771", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bâtonnet", "output": "Kʉlə", "source": "dictionary"}
+{"id": "pair_000772", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kʉlə", "output": "Bâtonnet", "source": "dictionary"}
+{"id": "pair_000773", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Femme(nouvellement mariée)", "output": "Nzwighʉ̀n", "source": "dictionary"}
+{"id": "pair_000774", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nzwighʉ̀n", "output": "Femme(nouvellement mariée)", "source": "dictionary"}
+{"id": "pair_000775", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rougir (colère)", "output": "Nə̀ kǎŋ ncʉ̀ mi", "source": "dictionary"}
+{"id": "pair_000776", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ kǎŋ ncʉ̀ mi", "output": "Rougir (colère)", "source": "dictionary"}
+{"id": "pair_000777", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Arroser", "output": "Nə̀ ywɛlə̀", "source": "dictionary"}
+{"id": "pair_000778", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ywɛlə̀", "output": "Arroser", "source": "dictionary"}
+{"id": "pair_000779", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Couvaison", "output": "Nə̀zika (saŋə )", "source": "dictionary"}
+{"id": "pair_000780", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀zika (saŋə )", "output": "Couvaison", "source": "dictionary"}
+{"id": "pair_000781", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Voler oiseau", "output": "Nə̀ fʉlə", "source": "dictionary"}
+{"id": "pair_000782", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ fʉlə", "output": "Voler oiseau", "source": "dictionary"}
+{"id": "pair_000783", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Paraitre", "output": "Nə̀ ŋwàg◌", "source": "dictionary"}
+{"id": "pair_000784", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ŋwàg◌", "output": "Paraitre", "source": "dictionary"}
+{"id": "pair_000785", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Comportement", "output": "Kǔzìn", "source": "dictionary"}
+{"id": "pair_000786", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kǔzìn", "output": "Comportement", "source": "dictionary"}
+{"id": "pair_000787", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Refroidir", "output": "Nə̀ nywìnə", "source": "dictionary"}
+{"id": "pair_000788", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ nywìnə", "output": "Refroidir", "source": "dictionary"}
+{"id": "pair_000789", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "la balle a éclaté̍", "output": "Bàloŋ bɛd", "source": "expressions"}
+{"id": "pair_000790", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bàloŋ bɛd", "output": "la balle a éclaté̍", "source": "expressions"}
+{"id": "pair_000791", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Lâchete̍", "output": "Bwog", "source": "dictionary"}
+{"id": "pair_000792", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Bwog", "output": "Lâchete̍", "source": "dictionary"}
+{"id": "pair_000793", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Tordre", "output": "Nə̀ ba", "source": "dictionary"}
+{"id": "pair_000794", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ba", "output": "Tordre", "source": "dictionary"}
+{"id": "pair_000795", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Partager (de façon discrim)", "output": "Nə̀ gὰbtə̌ tɔ̀bu", "source": "dictionary"}
+{"id": "pair_000796", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ gὰbtə̌ tɔ̀bu", "output": "Partager (de façon discrim)", "source": "dictionary"}
+{"id": "pair_000797", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Pourpe", "output": "Ŋwǎꞌŋwaꞌ", "source": "dictionary"}
+{"id": "pair_000798", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ŋwǎꞌŋwaꞌ", "output": "Pourpe", "source": "dictionary"}
+{"id": "pair_000799", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Gagner", "output": "Nə̀ jʉ", "source": "dictionary"}
+{"id": "pair_000800", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ jʉ", "output": "Gagner", "source": "dictionary"}
+{"id": "pair_000801", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Luxueux", "output": "Jûngʉa", "source": "dictionary"}
+{"id": "pair_000802", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Jûngʉa", "output": "Luxueux", "source": "dictionary"}
+{"id": "pair_000803", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Parole vaine", "output": "Ncob kə̀tùn", "source": "dictionary"}
+{"id": "pair_000804", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ncob kə̀tùn", "output": "Parole vaine", "source": "dictionary"}
+{"id": "pair_000805", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cadet", "output": "ntʉ̂ꞌnjàm", "source": "dictionary"}
+{"id": "pair_000806", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "ntʉ̂ꞌnjàm", "output": "Cadet", "source": "dictionary"}
+{"id": "pair_000807", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fumer", "output": "Nə̀ lamnzə̂mbwogə", "source": "dictionary"}
+{"id": "pair_000808", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ lamnzə̂mbwogə", "output": "Fumer", "source": "dictionary"}
+{"id": "pair_000809", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Bambou", "output": "Ndiaŋ", "source": "dictionary"}
+{"id": "pair_000810", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ndiaŋ", "output": "Bambou", "source": "dictionary"}
+{"id": "pair_000811", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Re̍dempteur", "output": "Ngàyǒgmɛ̀n", "source": "dictionary"}
+{"id": "pair_000812", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàyǒgmɛ̀n", "output": "Re̍dempteur", "source": "dictionary"}
+{"id": "pair_000813", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Dire les défauts", "output": "Nə̀ to lǒꞌ mɛ̀n", "source": "dictionary"}
+{"id": "pair_000814", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ to lǒꞌ mɛ̀n", "output": "Dire les défauts", "source": "dictionary"}
+{"id": "pair_000815", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mentir", "output": "Nə̀ tadtə", "source": "dictionary"}
+{"id": "pair_000816", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ tadtə", "output": "Mentir", "source": "dictionary"}
+{"id": "pair_000817", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Vieux", "output": "Njwɛ̀nmɛ̀n", "source": "dictionary"}
+{"id": "pair_000818", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Njwɛ̀nmɛ̀n", "output": "Vieux", "source": "dictionary"}
+{"id": "pair_000819", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Buisson", "output": "Tswəꞌnə̀nὰ", "source": "dictionary"}
+{"id": "pair_000820", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tswəꞌnə̀nὰ", "output": "Buisson", "source": "dictionary"}
+{"id": "pair_000821", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Témoigner", "output": "Nə̀ mbǎꞌnkwαn", "source": "dictionary"}
+{"id": "pair_000822", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ mbǎꞌnkwαn", "output": "Témoigner", "source": "dictionary"}
+{"id": "pair_000823", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Fendre", "output": "Nə̀ bàgə", "source": "dictionary"}
+{"id": "pair_000824", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bàgə", "output": "Fendre", "source": "dictionary"}
+{"id": "pair_000825", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Cadi", "output": "Ngù", "source": "dictionary"}
+{"id": "pair_000826", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngù", "output": "Cadi", "source": "dictionary"}
+{"id": "pair_000827", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Epi (de mais)", "output": "Kòꞌ (ngə̀fələ)", "source": "dictionary"}
+{"id": "pair_000828", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kòꞌ (ngə̀fələ)", "output": "Epi (de mais)", "source": "dictionary"}
+{"id": "pair_000829", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Peureux", "output": "Mbwôgtùn", "source": "dictionary"}
+{"id": "pair_000830", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbwôgtùn", "output": "Peureux", "source": "dictionary"}
+{"id": "pair_000831", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Mort (la)", "output": "Vʉkob", "source": "dictionary"}
+{"id": "pair_000832", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Vʉkob", "output": "Mort (la)", "source": "dictionary"}
+{"id": "pair_000833", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Wagon", "output": "Kaligə", "source": "dictionary"}
+{"id": "pair_000834", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Kaligə", "output": "Wagon", "source": "dictionary"}
+{"id": "pair_000835", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Qui", "output": "Zə", "source": "dictionary"}
+{"id": "pair_000836", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Zə", "output": "Qui", "source": "dictionary"}
+{"id": "pair_000837", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Eau polluee", "output": "Ntsə nəsαgtə", "source": "dictionary"}
+{"id": "pair_000838", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ntsə nəsαgtə", "output": "Eau polluee", "source": "dictionary"}
+{"id": "pair_000839", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Vérité", "output": "Nənʉne", "source": "dictionary"}
+{"id": "pair_000840", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nənʉne", "output": "Vérité", "source": "dictionary"}
+{"id": "pair_000841", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Panthère", "output": "Nzwìmα̂ntɔ̀", "source": "dictionary"}
+{"id": "pair_000842", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nzwìmα̂ntɔ̀", "output": "Panthère", "source": "dictionary"}
+{"id": "pair_000843", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Parabole", "output": "Ngʉmə (", "source": "dictionary"}
+{"id": "pair_000844", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngʉmə (", "output": "Parabole", "source": "dictionary"}
+{"id": "pair_000845", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Sonder", "output": "Nə̀ toŋnù", "source": "dictionary"}
+{"id": "pair_000846", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ toŋnù", "output": "Sonder", "source": "dictionary"}
+{"id": "pair_000847", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Personne", "output": "Mɛ̀nntʉ̀n", "source": "dictionary"}
+{"id": "pair_000848", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mɛ̀nntʉ̀n", "output": "Personne", "source": "dictionary"}
+{"id": "pair_000849", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Large", "output": "Nàghuꞌu", "source": "dictionary"}
+{"id": "pair_000850", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nàghuꞌu", "output": "Large", "source": "dictionary"}
+{"id": "pair_000851", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Oeuvre", "output": "Fàꞌ", "source": "dictionary"}
+{"id": "pair_000852", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Fàꞌ", "output": "Oeuvre", "source": "dictionary"}
+{"id": "pair_000853", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Roseau", "output": "Nkǎꞌnə̀soŋ", "source": "dictionary"}
+{"id": "pair_000854", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkǎꞌnə̀soŋ", "output": "Roseau", "source": "dictionary"}
+{"id": "pair_000855", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Karaté̍", "output": "Nkə", "source": "dictionary"}
+{"id": "pair_000856", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkə", "output": "Karaté̍", "source": "dictionary"}
+{"id": "pair_000857", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Huilerie", "output": "Cα̌bmfɛd", "source": "dictionary"}
+{"id": "pair_000858", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Cα̌bmfɛd", "output": "Huilerie", "source": "dictionary"}
+{"id": "pair_000859", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Nourriture", "output": "Caŋ", "source": "dictionary"}
+{"id": "pair_000860", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Caŋ", "output": "Nourriture", "source": "dictionary"}
+{"id": "pair_000861", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Offenser", "output": "Nə̀ diα̌g ncà", "source": "dictionary"}
+{"id": "pair_000862", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ diα̌g ncà", "output": "Offenser", "source": "dictionary"}
+{"id": "pair_000863", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Boutiquier", "output": "ngàndα̂ntαnə", "source": "dictionary"}
+{"id": "pair_000864", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "ngàndα̂ntαnə", "output": "Boutiquier", "source": "dictionary"}
+{"id": "pair_000865", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Orfèvre", "output": "Ngàvə̀", "source": "dictionary"}
+{"id": "pair_000866", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Ngàvə̀", "output": "Orfèvre", "source": "dictionary"}
+{"id": "pair_000867", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Olivier", "output": "Tʉmvɛd", "source": "dictionary"}
+{"id": "pair_000868", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Tʉmvɛd", "output": "Olivier", "source": "dictionary"}
+{"id": "pair_000869", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Transparent", "output": "Nə̀yəntə", "source": "dictionary"}
+{"id": "pair_000870", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀yəntə", "output": "Transparent", "source": "dictionary"}
+{"id": "pair_000871", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Avenue", "output": "tôŋnzə̀", "source": "dictionary"}
+{"id": "pair_000872", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "tôŋnzə̀", "output": "Avenue", "source": "dictionary"}
+{"id": "pair_000873", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Souffrir", "output": "Nə̀ fɛd nsɔ", "source": "dictionary"}
+{"id": "pair_000874", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ fɛd nsɔ", "output": "Souffrir", "source": "dictionary"}
+{"id": "pair_000875", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Rivaliser", "output": "Nə̀ bǎb ndʉꞌ", "source": "dictionary"}
+{"id": "pair_000876", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ bǎb ndʉꞌ", "output": "Rivaliser", "source": "dictionary"}
+{"id": "pair_000877", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Infirme", "output": "Nkə̀ꞌkɛ̀d", "source": "dictionary"}
+{"id": "pair_000878", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nkə̀ꞌkɛ̀d", "output": "Infirme", "source": "dictionary"}
+{"id": "pair_000879", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Espérer", "output": "Nə̀nywintə̀", "source": "dictionary"}
+{"id": "pair_000880", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀nywintə̀", "output": "Espérer", "source": "dictionary"}
+{"id": "pair_000881", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Artère", "output": "Mbwôŋnc̩a", "source": "dictionary"}
+{"id": "pair_000882", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Mbwôŋnc̩a", "output": "Artère", "source": "dictionary"}
+{"id": "pair_000883", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Froid (faire)", "output": "Nə̀ ko mfʉag", "source": "dictionary"}
+{"id": "pair_000884", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ ko mfʉag", "output": "Froid (faire)", "source": "dictionary"}
+{"id": "pair_000885", "task": "fr_to_medumba", "instruction": "Translate French to Medumba.", "input": "Lutter", "output": "Nə̀ zwə̌zwə̀ꞌ", "source": "dictionary"}
+{"id": "pair_000886", "task": "medumba_to_fr", "instruction": "Translate Medumba to French.", "input": "Nə̀ zwə̌zwə̀ꞌ", "output": "Lutter", "source": "dictionary"}
