@@ -15,7 +15,7 @@
         <div class="brand-icon" aria-hidden="true">M</div>
         <div>
           <h1>Medumba AI</h1>
-          <p class="subtitle">RAG-Assisted Translation Engine</p>
+          <p class="subtitle">Translate between French and Medumba</p>
         </div>
       </div>
       <div id="status" class="status-pill">Connecting&hellip;</div>
@@ -45,7 +45,7 @@
             <span class="output-placeholder">Translation will appear here</span>
           </div>
           <div class="panel-meta">
-            <span id="method-badge" class="method-badge"></span>
+            <span></span>
             <button id="copy-btn" class="icon-btn" title="Copy translation" aria-label="Copy translation">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
             </button>
@@ -53,44 +53,13 @@
         </div>
       </div>
 
-      <!-- Actions -->
+      <!-- Translate button -->
       <div class="actions">
-        <label class="toggle" title="Use AI model with step-by-step reasoning for better translations">
-          <input id="use-llm" type="checkbox" checked>
-          <span class="toggle-track"><span class="toggle-thumb"></span></span>
-          <span class="toggle-label">AI Reasoning</span>
-        </label>
         <button id="translate-btn" class="primary-btn">
           <span class="btn-text">Translate</span>
           <span class="btn-loader hidden" aria-hidden="true"></span>
         </button>
       </div>
-
-      <!-- Result sections (hidden until populated) -->
-      <section id="reasoning-section" class="info-card hidden" aria-live="polite">
-        <div class="info-card-header">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-          <h3>AI Reasoning</h3>
-        </div>
-        <p id="reasoning-text" class="info-card-body"></p>
-      </section>
-
-      <section id="wbw-section" class="info-card hidden">
-        <div class="info-card-header">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
-          <h3>Word-by-Word</h3>
-        </div>
-        <p id="wbw-text" class="info-card-body"></p>
-      </section>
-
-      <details id="matches-section" class="matches-card hidden">
-        <summary class="matches-summary">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          <span>Dictionary &amp; Example Matches</span>
-          <span id="match-count" class="match-count-badge"></span>
-        </summary>
-        <div id="matches-list" class="matches-list"></div>
-      </details>
 
       <!-- Error toast -->
       <div id="error-toast" class="error-toast hidden" role="alert"></div>
